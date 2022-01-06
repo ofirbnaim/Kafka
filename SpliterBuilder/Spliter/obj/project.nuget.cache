@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "8m/H3XpPNI4oOr7hY7QOip2ysI7II+qKNu8ccSs0nxlPREyblEHupi1Yn1wPQ/MIoTEWnYr2NMJA5k3PMqUKvA==",
+  "dgSpecHash": "pJ00Kn7CmaO8PCoyqoBTMYIhG28/YfqvFMOYW5NcqNICbVBydeByJebnYHIux5BIJkfv+aUEEkn9veZwntxyMw==",
   "success": true,
-  "projectFilePath": "C:\\Dev\\SpliterBuilder\\Spliter\\Spliter.csproj",
+  "projectFilePath": "C:\\Users\\ofirb\\source\\repos\\ofirbnaim\\Kafka\\SpliterBuilder\\Spliter\\Spliter.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ofirb\\.nuget\\packages\\confluent.kafka\\1.8.2\\confluent.kafka.1.8.2.nupkg.sha512",
     "C:\\Users\\ofirb\\.nuget\\packages\\librdkafka.redist\\1.8.2\\librdkafka.redist.1.8.2.nupkg.sha512",

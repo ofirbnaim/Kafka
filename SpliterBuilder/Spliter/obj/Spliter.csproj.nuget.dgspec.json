@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Dev\\SpliterBuilder\\Spliter\\Spliter.csproj": {}
+    "C:\\Users\\ofirb\\source\\repos\\ofirbnaim\\Kafka\\SpliterBuilder\\Spliter\\Spliter.csproj": {}
   },
   "projects": {
-    "C:\\Dev\\SpliterBuilder\\Spliter\\Spliter.csproj": {
+    "C:\\Users\\ofirb\\source\\repos\\ofirbnaim\\Kafka\\SpliterBuilder\\Spliter\\Spliter.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Dev\\SpliterBuilder\\Spliter\\Spliter.csproj",
+        "projectUniqueName": "C:\\Users\\ofirb\\source\\repos\\ofirbnaim\\Kafka\\SpliterBuilder\\Spliter\\Spliter.csproj",
         "projectName": "Spliter",
-        "projectPath": "C:\\Dev\\SpliterBuilder\\Spliter\\Spliter.csproj",
+        "projectPath": "C:\\Users\\ofirb\\source\\repos\\ofirbnaim\\Kafka\\SpliterBuilder\\Spliter\\Spliter.csproj",
         "packagesPath": "C:\\Users\\ofirb\\.nuget\\packages\\",
-        "outputPath": "C:\\Dev\\SpliterBuilder\\Spliter\\obj\\",
+        "outputPath": "C:\\Users\\ofirb\\source\\repos\\ofirbnaim\\Kafka\\SpliterBuilder\\Spliter\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",

@@ -44,7 +44,7 @@ namespace Spliter
                 .UseWindowsService()
                 .ConfigureServices((hostContext, services) =>
                 {
-                    ////Add Configuration
+                    //Add Configuration
                     
                     KafkaConfig kafkaConfig = hostContext.Configuration.GetSection("KafkaConnectionsSection").Get<KafkaConfig>();
                     services.AddSingleton(kafkaConfig);
