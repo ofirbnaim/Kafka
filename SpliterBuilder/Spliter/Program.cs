@@ -6,6 +6,8 @@ using Serilog.Events;
 using Spliter.Config;
 using Spliter.Logic;
 using System;
+using Spliter.Config;
+using System.IO;
 
 namespace Spliter
 {
@@ -45,11 +47,10 @@ namespace Spliter
                 .ConfigureServices((hostContext, services) =>
                 {
                     //Add Configuration
-                    
-                    KafkaConfig kafkaConfig = hostContext.Configuration.GetSection("KafkaConnectionsSection").Get<KafkaConfig>();
+                    KafkaConfig kafkaConfig = hostContext.Configuration.GetSection("kafkaConnectionsSection").Get<KafkaConfig>();
                     services.AddSingleton(kafkaConfig);
-
-                    ////Add singeltons
+                    
+                    //Add singeltons
                     services.AddSingleton<IKafkaConnections, KafkaConnections>();
 
                     //Add worker
