@@ -39,7 +39,7 @@ namespace Spliter
                 _logger.LogInformation("Worker running at: {time}", DateTimeOffset.Now);
                 
                 //Create new producer
-                _kafkaConnections.ToProduce();
+                await _kafkaConnections.ToProduce();
                 
 
                 await Task.Delay(1000, stoppingToken);

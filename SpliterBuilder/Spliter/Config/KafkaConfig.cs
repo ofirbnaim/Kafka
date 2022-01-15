@@ -6,8 +6,7 @@ namespace Spliter.Config
 {
     public class KafkaConfig
     {
-        public kafkaConnectionsSection kafkaConnectionsSectionConfig { get; set; }
-        public Brokers[] BrokersConfig { get; set; }
+        public kafkaConnectionsSection kafkaConnectionsConfig { get; set; }
 
         // KafkaConnection Section object
         public class kafkaConnectionsSection

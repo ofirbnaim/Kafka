@@ -1,17 +1,23 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
+using System.Diagnostics;
 using System.Net;
 using System.Text;
+using System.Threading;
+using System.Threading.Tasks;
 using Confluent.Kafka;
 using Microsoft.Extensions.Logging;
+using Microsoft.Extensions.Options;
 using Spliter.Config;
+using static Spliter.Config.KafkaConfig;
 
 namespace Spliter.Logic
 {
     public class KafkaConnections : IKafkaConnections
     {
         private readonly ILogger<KafkaConnections> _logger;
-        public KafkaConfig _kafkaConfig;
+        private readonly KafkaConfig _kafkaConfig;
 
         public KafkaConnections(ILogger<KafkaConnections> logger, KafkaConfig kafkaConfig)
         {
@@ -24,52 +30,81 @@ namespace Spliter.Logic
             throw new NotImplementedException();
         }
 
-        public void ToProduce()
+        public async Task ToProduce()
         {
-            //var producerConfig = new ProducerConfig
-            //{
-            //    BootstrapServers = "localhost:9092",
-            //    ClientId = Dns.GetHostName(),
+            // Reliable Producer Configuration
+            var _producerConfig = new ProducerConfig
+            {
+                ClientId = Dns.GetHostName(),
+                EnableDeliveryReports = true,
 
-            //};
+                Debug = "msg",
+                #region 
+                // Retry settings:
+                // Receive akcnowledgement from all sync replicas
+                Acks = Acks.All,
+                // Number of times to retry before giving up
+                MessageSendMaxRetries = 3,
+                // Duration to retry before next attempt
+                RetryBackoffMs = 1000,
+                // Set to true if you don't want to reorder messages on retry
+                EnableIdempotence = true
+                #endregion
+            };
 
-            var producerConfig = new ProducerConfig();
+            foreach (var broker in _kafkaConfig.kafkaConnectionsConfig.Brokers)
+            {
+                _producerConfig.BootstrapServers = broker.BrokerName;
 
+                // The Producer Logs
+                using var producer = new ProducerBuilder<long, string>(_producerConfig)
+                  .SetKeySerializer(Serializers.Int64)
+                  .SetValueSerializer(Serializers.Utf8)
+                  .SetLogHandler((_, message) =>
+                      _logger.LogInformation($"Broker Name: {broker.BrokerName}, Facility: {message.Facility} - {message.Level} Message: {message.Message}\n"
+                  ))
+                  .SetErrorHandler((_, exception) =>
+                      _logger.LogError($"Broker Name: {broker.BrokerName}, Error: {exception.Reason}. Is Fatal: {exception.IsFatal}"
+                  ))
+                  .Build();
 
-            //Take producer values from configuration
-            //for (int i = 0; i < _kafkaConfig.kafkaConnectionsSectionConfig.Brokers.Length; i++)   
-            //{
-            //    Brokers tempBroker = new Brokers();
-            //    tempBroker.BrokerName = _kafkaConfig.kafkaConnectionsSectionConfig.Brokers[i].BrokerName;
-            //    tempBroker.TopicName = _kafkaConfig.kafkaConnectionsSectionConfig.Brokers[i].TopicName;
+                // Producing Messages to all topics
+                try
+                {
+                    foreach (var topic in broker.TopicName)
+                    {
+                        _logger.LogInformation("\nProducer loop started...\n\n");
 
-            //    producerConfig.BootstrapServers = tempBroker.BrokerName;
-            //    producerConfig.ClientId = Dns.GetHostName();
+                        for (var character = 'A'; character <= 'Z'; character++)
+                        {
+                            // Write a character with Uniqe Stemp Time
+                            var message = $"Character #{character} sent at {DateTime.Now:yyyy-MM-dd-HH:mm:ss}";
 
-            //    //The message value
-            //    using (var producerBuilder = new ProducerBuilder<Null, string>(producerConfig).Build())
-            //    {
-            //        try
-            //        {
-            //            for (int j = 0; j < tempBroker.TopicName.Length; j++)
-            //            {
-            //                producerBuilder.ProduceAsync(tempBroker.TopicName[j], new Message<Null, string>
-            //                {
-            //                    Value = "ofir-test"
-            //                });
+                            var deliveryReport = await producer.ProduceAsync(topic, new Message<long, string>
+                            {
+                                Key = DateTime.UtcNow.Ticks,
+                                Value = message
+                            });
 
-            //                _logger.LogInformation($"Success to write the meesege to topic: {tempBroker.TopicName[j]}");
-            //            }
+                            _logger.LogInformation($"Message sent (value: '{message}'). Delivery status: {deliveryReport.Status}");
 
-            //            //producerBuilder.Flush();
-            //        }
-            //        catch (Exception ex)
-            //        {
-            //            _logger.LogInformation(ex, "There was a problem to produce a message");
-            //        }
-            //    }
-           
-            //}
+                            if (deliveryReport.Status != PersistenceStatus.Persisted)
+                            {
+                                // Delivery might have failed after retries. This message requires manual proccessing.
+                                _logger.LogError($"Error: Message not ack'd by all brokers (value: '{message}'. Delivery status: {deliveryReport.Status}");
+                            }
+
+                            Thread.Sleep(TimeSpan.FromSeconds(2));
+                        }
+                    }
+                }
+                catch (ProduceException<long, string> ex)
+                {
+                    // Log this message for manual processing
+                    _logger.LogError($"Permanent error: {ex.Message} for message (value: '{ex.DeliveryResult.Value}')");
+                    _logger.LogError("Exiting producer...");
+                }
+            }
         }
     }
 }
