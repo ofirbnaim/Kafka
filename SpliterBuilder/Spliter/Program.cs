@@ -17,7 +17,7 @@ namespace Spliter
         {
             //Need to move it to the json file configuration
             Log.Logger = new LoggerConfiguration()
-                .MinimumLevel.Debug()
+                .MinimumLevel.Information()
                 .MinimumLevel.Override("Microsoft", LogEventLevel.Warning)
                 .Enrich.FromLogContext()
                 .WriteTo.File(@"C:\Dev\SpliterBuilder\Logs\log.txt")

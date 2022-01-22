@@ -40,6 +40,7 @@ namespace Spliter
                 
                 //Create new producer
                 await _kafkaConnections.ToProduce();
+                _kafkaConnections.ToConsume();
                 
 
                 await Task.Delay(1000, stoppingToken);

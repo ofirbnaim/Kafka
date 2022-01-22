@@ -183,3 +183,4 @@ C:\Users\ofirb\source\repos\ofirbnaim\Kafka\SpliterBuilder\Spliter\obj\Debug\net
 C:\Users\ofirb\source\repos\ofirbnaim\Kafka\SpliterBuilder\Spliter\obj\Debug\netcoreapp3.1\Spliter.dll
 C:\Users\ofirb\source\repos\ofirbnaim\Kafka\SpliterBuilder\Spliter\obj\Debug\netcoreapp3.1\Spliter.pdb
 C:\Users\ofirb\source\repos\ofirbnaim\Kafka\SpliterBuilder\Spliter\obj\Debug\netcoreapp3.1\Spliter.genruntimeconfig.cache
+C:\Users\ofirb\source\repos\ofirbnaim\Kafka\SpliterBuilder\Spliter\bin\Debug\netcoreapp3.1\Confluent.SchemaRegistry.dll

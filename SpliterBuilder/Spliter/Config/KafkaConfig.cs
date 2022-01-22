@@ -18,7 +18,7 @@ namespace Spliter.Config
         public class Brokers
         {
             public string BrokerName { get; set; }
-            public string[] TopicName { get; set; }
+            public IEnumerable<string> TopicName { get; set; }
         }
 
 
