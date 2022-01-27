@@ -2,15 +2,21 @@
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Diagnostics;
+using System.IO;
 using System.Net;
+using System.Runtime.Serialization;
+using System.Runtime.Serialization.Formatters.Binary;
 using System.Text;
+using System.Text.Json;
 using System.Threading;
 using System.Threading.Tasks;
+using System.Xml;
 using Confluent.Kafka;
 using Confluent.SchemaRegistry;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
 using Spliter.Config;
+using Spliter.DM;
 using static Spliter.Config.KafkaConfig;
 
 namespace Spliter.Logic
@@ -33,13 +39,11 @@ namespace Spliter.Logic
                 EnableAutoCommit = false,
                 EnableAutoOffsetStore = false,
                 MaxPollIntervalMs = 300000,
-                GroupId = _kafkaConfig.kafkaConnectionsConfig.GroupName,
+                GroupId = _kafkaConfig.kafkaConnectionsConfig.GroupID,
 
                 // Read messages from start if no commit exists.
                 AutoOffsetReset = AutoOffsetReset.Earliest
             };
-
-                
 
             foreach (var broker in _kafkaConfig.kafkaConnectionsConfig.Brokers)
             {
@@ -56,38 +60,39 @@ namespace Spliter.Logic
 
                 try
                 {
-                    //foreach (var topic in broker.TopicName)
-                    //{
-                        consumer.Subscribe(broker.TopicName);
+                    // Subscribe to all Topics (more than one)
+                    consumer.Subscribe(broker.TopicsNames);
 
-                        _logger.LogInformation("Consumer loop started...");
+                   _logger.LogInformation("Consumer loop started...");
 
-                        // This is indeed an infinite loop. Consumers are usually long-running applications that continuously poll Kafka for more data.
-                        while (true)
-                        {
+                    // This is indeed an infinite loop. Consumers are usually long-running applications that continuously poll Kafka for more data.
+                    while (true)
+                    {
                         // Blocks until a consume result is available, or the time out period has elapsed
                         var result = consumer.Consume(TimeSpan.FromMilliseconds(_consumerConfig.MaxPollIntervalMs - 1000 ?? 250000));
 
+                        // Get the message value - null is possible
+                        var message = result?.Message?.Value;
+                        PersonDM personToDeserialize = JsonSerializer.Deserialize<PersonDM>(message);
 
-                            // Get the message value - null is possible
-                            var message = result?.Message?.Value;
-                            if(message == null)
-                            {
-                                continue;
-                            }
-
-                            _logger.LogInformation($"Message received: {result.Message.Key}: {message} from Topic: {broker.TopicName} In Partition: {result.Partition.Value}");
-
-                            /* The committed position, is the last offset that has been stored securely.
-                             Should the process fail and restart, this is the offset that the consumer will recover to */
-                            consumer.Commit(result);
-
-                            consumer.StoreOffset(result);
-                            Thread.Sleep(TimeSpan.FromSeconds(5));
+                        if (message == null)
+                        {
+                            continue;
                         }
-                    //}
+
+                        File.WriteAllText(@"C:\Users\ofirb\source\repos\ofirbnaim\Kafka\SpliterBuilder\Files\File_" + Guid.NewGuid().ToString()+".json", message);
+
+                       _logger.LogInformation($"Message received:\n'{message}'\nwith the key: '{result.Message.Key}', In Partition: {result.Partition.Value}, at Offset: {result.Offset.Value}\n");
+
+                        /* The committed position, is the last offset that has been stored securely.
+                        Should the process fail and restart, this is the offset that the consumer will recover to */
+                        consumer.Commit(result);
+                        consumer.StoreOffset(result);
+                     
+                        Thread.Sleep(TimeSpan.FromSeconds(1));
+                    }
                 }
-                catch(KafkaException ex)
+                catch (KafkaException ex)
                 {
                     _logger.LogError($"Consumer Error: {ex.Message}");
                     _logger.LogError("Exiting producer...");
@@ -96,8 +101,7 @@ namespace Spliter.Logic
                 {
                     consumer.Close();
                 }
-            } 
-
+            }
         }
 
         public async Task ToProduce()
@@ -107,7 +111,7 @@ namespace Spliter.Logic
             {
                 ClientId = Dns.GetHostName(),
                 EnableDeliveryReports = true,
-                
+
                 Debug = "msg",
                 #region 
                 // Retry settings:
@@ -140,31 +144,36 @@ namespace Spliter.Logic
                 // Producing Messages to all topics
                 try
                 {
-                    foreach (var topic in broker.TopicName)
+                    foreach (var topic in broker.TopicsNames)
                     {
                         _logger.LogInformation("Producer loop started...");
 
-                        for (var character = 'A'; character <= 'A'; character++)
+                        var personToSerialize = new PersonDM
                         {
-                            // Write a character with Uniqe Stemp Time
-                            var message = $"Character #{character} sent at {DateTime.Now:yyyy-MM-dd-HH:mm:ss}";
+                            FirstName = "ofir",
+                            LastName = "Ben Naim",
+                            Date = DateTimeOffset.Now
+                        };
 
-                            var deliveryReport = await producer.ProduceAsync(topic, new Message<long, string>
-                            {
-                                Key = DateTime.UtcNow.Ticks,
-                                Value = message
-                            });
+                        // Serialize
+                        var options = new JsonSerializerOptions { WriteIndented = true };
+                        var message = JsonSerializer.Serialize(personToSerialize, options);
 
-                            _logger.LogInformation($"Message sent (value: '{message}') to topic: {topic} in partiotion: {deliveryReport.Partition.Value}. Delivery status: {deliveryReport.Status}");
+                        var deliveryReport = await producer.ProduceAsync(topic, new Message<long, string>
+                        {
+                            Key = DateTime.UtcNow.Ticks,
+                            Value = message
+                        });
 
-                            if (deliveryReport.Status != PersistenceStatus.Persisted)
-                            {
-                                // Delivery might have failed after retries. This message requires manual proccessing.
-                                _logger.LogError($"Error: Message not ack'd by all brokers (value: '{message}'. Delivery status: {deliveryReport.Status}");
-                            }
+                        _logger.LogInformation($"Message sent:\n'{message}' \nwith the key: '{deliveryReport.Key}', to topic: {topic} in partiotion: {deliveryReport.Partition.Value}, at Offset: {deliveryReport.Offset.Value}. Delivery status: {deliveryReport.Status}\n");
 
-                            Thread.Sleep(TimeSpan.FromSeconds(2));
+                        if (deliveryReport.Status != PersistenceStatus.Persisted)
+                        {
+                            // Delivery might have failed after retries. This message requires manual proccessing.
+                            _logger.LogError($"Error: Message not ack'd by all brokers (value: '{message}'. Delivery status: {deliveryReport.Status}");
                         }
+
+                        Thread.Sleep(TimeSpan.FromSeconds(1));
                     }
                 }
                 catch (ProduceException<long, string> ex)

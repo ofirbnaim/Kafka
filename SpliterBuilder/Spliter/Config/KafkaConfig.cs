@@ -12,13 +12,13 @@ namespace Spliter.Config
         public class kafkaConnectionsSection
         {
             public Brokers[] Brokers { get; set; }  
-            public string GroupName { get; set; }
+            public string GroupID { get; set; }
         }
 
         public class Brokers
         {
             public string BrokerName { get; set; }
-            public IEnumerable<string> TopicName { get; set; }
+            public IEnumerable<string> TopicsNames { get; set; }
         }
 
 

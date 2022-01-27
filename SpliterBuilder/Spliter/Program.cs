@@ -8,6 +8,7 @@ using Spliter.Logic;
 using System;
 using Spliter.Config;
 using System.IO;
+using Microsoft.Extensions.Logging;
 
 namespace Spliter
 {
@@ -41,22 +42,27 @@ namespace Spliter
         }
 
         public static IHostBuilder CreateHostBuilder(string[] args)
-        { 
-          return  Host.CreateDefaultBuilder(args)
-                .UseWindowsService()
-                .ConfigureServices((hostContext, services) =>
-                {
-                    //Add Configuration
-                    KafkaConfig kafkaConfig = hostContext.Configuration.GetSection("kafkaSection").Get<KafkaConfig>();
-                    services.AddSingleton(kafkaConfig);
+        {
+            return Host.CreateDefaultBuilder(args)
+                  .UseWindowsService()
+                  .ConfigureServices((hostContext, services) =>
+                  {
+                      //Add Configuration
+                      KafkaConfig kafkaConfig = hostContext.Configuration.GetSection("kafkaSection").Get<KafkaConfig>();
+                      services.AddSingleton(kafkaConfig);
 
-                    //Add singeltons
-                    services.AddSingleton<IKafkaConnections, KafkaConnections>();
+                      //Add singeltons
+                      services.AddSingleton<IKafkaConnections, KafkaConnections>();
 
-                    //Add worker
-                    services.AddHostedService<Worker>();
-                })
-                .UseSerilog();
+                      //Add worker
+                      services.AddHostedService<Worker>();
+                  })
+                  .UseSerilog();
+                  //.ConfigureLogging(builder =>
+                  //{
+                  //    builder.SetMinimumLevel(LogLevel.Debug);
+                  //    builder.AddLog4Net($"Log4Net.config");
+                  //});
         }
     }
 }
