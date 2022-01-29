@@ -36,7 +36,7 @@ namespace Spliter
         {
             while (!stoppingToken.IsCancellationRequested)
             {
-                _logger.LogInformation("Worker running at: {time}", DateTimeOffset.Now);
+                _logger.LogInformation("Worker is running now...");
                 
                 //Create new producer
                 await _kafkaConnections.ToProduce();

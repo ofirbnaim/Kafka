@@ -1,0 +1,32 @@
+01/29/2022 13:45:21 INF Consumer Service is up and running! 
+ 01/29/2022 13:45:24 INF Consumer Worker is running now... 
+ 01/29/2022 13:45:25 INF Consumer loop started... 
+ 01/29/2022 13:45:27 ERR Error: localhost:9092/bootstrap: Connect to ipv4#127.0.0.1:9092 failed: Unknown error (after 2017ms in state CONNECT), Is Fatal: False 
+ 01/29/2022 13:45:27 ERR Error: 1/1 brokers are down, Is Fatal: False 
+ 01/29/2022 13:45:30 ERR Error: localhost:9092/bootstrap: Disconnected while requesting ApiVersion: might be caused by incorrect security.protocol configuration (connecting to a SSL listener?) or broker version is < 0.10 (see api.version.request) (after 269ms in state APIVERSION_QUERY), Is Fatal: False 
+ 01/29/2022 13:45:32 ERR Error: localhost:9092/bootstrap: Connect to ipv6#[::1]:9092 failed: Unknown error (after 2032ms in state CONNECT), Is Fatal: False 
+ 01/29/2022 13:45:35 ERR Error: localhost:9092/bootstrap: Connect to ipv4#127.0.0.1:9092 failed: Unknown error (after 2067ms in state CONNECT), Is Fatal: False 
+ 01/29/2022 13:45:38 ERR Error: localhost:9092/bootstrap: Connect to ipv4#127.0.0.1:9092 failed: Unknown error (after 2043ms in state CONNECT, 1 identical error(s) suppressed), Is Fatal: False 
+ 01/29/2022 13:45:40 ERR Error: localhost:9092/bootstrap: Disconnected while requesting ApiVersion: might be caused by incorrect security.protocol configuration (connecting to a SSL listener?) or broker version is < 0.10 (see api.version.request) (after 847ms in state APIVERSION_QUERY), Is Fatal: False 
+ 01/29/2022 13:45:42 ERR Error: localhost:9092/bootstrap: Connect to ipv4#127.0.0.1:9092 failed: No connection could be made because the target machine actively refused it... (after 2021ms in state CONNECT), Is Fatal: False 
+ 01/29/2022 13:45:44 ERR Error: localhost:9092/bootstrap: Connect to ipv6#[::1]:9092 failed: Unknown error (after 2046ms in state CONNECT), Is Fatal: False 
+ 01/29/2022 13:45:47 ERR Error: localhost:9092/bootstrap: Connect to ipv4#127.0.0.1:9092 failed: Unknown error (after 2037ms in state CONNECT), Is Fatal: False 
+ 01/29/2022 13:45:49 ERR Error: localhost:9092/bootstrap: Disconnected while requesting ApiVersion: might be caused by incorrect security.protocol configuration (connecting to a SSL listener?) or broker version is < 0.10 (see api.version.request) (after 405ms in state APIVERSION_QUERY), Is Fatal: False 
+ 01/29/2022 13:45:51 ERR Error: localhost:9092/bootstrap: Connect to ipv6#[::1]:9092 failed: Unknown error (after 2029ms in state CONNECT), Is Fatal: False 
+ 01/29/2022 13:45:54 ERR Error: localhost:9092/bootstrap: Connect to ipv4#127.0.0.1:9092 failed: Unknown error (after 2023ms in state CONNECT), Is Fatal: False 
+ 01/29/2022 13:45:59 ERR Error: localhost:9092/bootstrap: Disconnected while requesting ApiVersion: might be caused by incorrect security.protocol configuration (connecting to a SSL listener?) or broker version is < 0.10 (see api.version.request) (after 365ms in state APIVERSION_QUERY), Is Fatal: False 
+ 01/29/2022 13:46:01 ERR Error: localhost:9092/bootstrap: Connect to ipv6#[::1]:9092 failed: Unknown error (after 2036ms in state CONNECT), Is Fatal: False 
+ 01/29/2022 13:46:07 ERR Error: localhost:9092/bootstrap: Connect to ipv4#127.0.0.1:9092 failed: Unknown error (after 2033ms in state CONNECT), Is Fatal: False 
+ 01/29/2022 13:46:09 ERR Error: localhost:9092/bootstrap: Disconnected while requesting ApiVersion: might be caused by incorrect security.protocol configuration (connecting to a SSL listener?) or broker version is < 0.10 (see api.version.request) (after 226ms in state APIVERSION_QUERY), Is Fatal: False 
+ 01/29/2022 13:46:11 ERR Error: localhost:9092/bootstrap: Connect to ipv4#127.0.0.1:9092 failed: Unknown error (after 2058ms in state CONNECT), Is Fatal: False 
+ 01/29/2022 13:46:13 ERR Error: localhost:9092/bootstrap: Connect to ipv6#[::1]:9092 failed: Unknown error (after 2046ms in state CONNECT), Is Fatal: False 
+ 01/29/2022 13:46:16 ERR Error: localhost:9092/bootstrap: Connect to ipv6#[::1]:9092 failed: Unknown error (after 2046ms in state CONNECT, 1 identical error(s) suppressed), Is Fatal: False 
+ 01/29/2022 13:46:18 ERR Error: localhost:9092/bootstrap: Disconnected while requesting ApiVersion: might be caused by incorrect security.protocol configuration (connecting to a SSL listener?) or broker version is < 0.10 (see api.version.request) (after 512ms in state APIVERSION_QUERY), Is Fatal: False 
+ 01/29/2022 13:46:20 ERR Error: localhost:9092/bootstrap: Connect to ipv6#[::1]:9092 failed: Unknown error (after 2016ms in state CONNECT), Is Fatal: False 
+ 01/29/2022 13:46:25 ERR Error: localhost:9092/bootstrap: Connect to ipv4#127.0.0.1:9092 failed: Unknown error (after 2025ms in state CONNECT), Is Fatal: False 
+ 01/29/2022 13:46:26 ERR Error: localhost:9092/bootstrap: Disconnected while requesting ApiVersion: might be caused by incorrect security.protocol configuration (connecting to a SSL listener?) or broker version is < 0.10 (see api.version.request) (after 350ms in state APIVERSION_QUERY), Is Fatal: False 
+ 01/29/2022 13:46:28 ERR Error: localhost:9092/bootstrap: Connect to ipv4#127.0.0.1:9092 failed: Unknown error (after 2030ms in state CONNECT), Is Fatal: False 
+ 01/29/2022 13:46:34 ERR Error: localhost:9092/bootstrap: Connect to ipv6#[::1]:9092 failed: Unknown error (after 2032ms in state CONNECT), Is Fatal: False 
+ 01/29/2022 13:46:36 ERR Error: localhost:9092/bootstrap: Disconnected while requesting ApiVersion: might be caused by incorrect security.protocol configuration (connecting to a SSL listener?) or broker version is < 0.10 (see api.version.request) (after 596ms in state APIVERSION_QUERY), Is Fatal: False 
+ 01/29/2022 13:46:38 ERR Error: localhost:9092/bootstrap: Connect to ipv6#[::1]:9092 failed: Unknown error (after 2038ms in state CONNECT), Is Fatal: False 
+ 

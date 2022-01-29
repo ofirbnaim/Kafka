@@ -6,9 +6,9 @@ using Serilog.Events;
 using Spliter.Config;
 using Spliter.Logic;
 using System;
-using Spliter.Config;
 using System.IO;
 using Microsoft.Extensions.Logging;
+using Microsoft.Extensions.Logging.Configuration;
 
 namespace Spliter
 {
@@ -16,14 +16,14 @@ namespace Spliter
     {
         public static void Main(string[] args)
         {
-            //Need to move it to the json file configuration
-            Log.Logger = new LoggerConfiguration()
-                .MinimumLevel.Information()
-                .MinimumLevel.Override("Microsoft", LogEventLevel.Warning)
-                .Enrich.FromLogContext()
-                .WriteTo.File(@"C:\Dev\SpliterBuilder\Logs\log.txt")
-                .CreateLogger();
+            var configuration = new ConfigurationBuilder()
+                .AddJsonFile("appsettings.json")
+                .Build();
 
+            Log.Logger = new LoggerConfiguration()
+                .ReadFrom.Configuration(configuration)
+                .CreateLogger();
+                
             try
             {
                 Log.Information(@"Service is up and running!");
@@ -56,13 +56,10 @@ namespace Spliter
 
                       //Add worker
                       services.AddHostedService<Worker>();
+
+
                   })
                   .UseSerilog();
-                  //.ConfigureLogging(builder =>
-                  //{
-                  //    builder.SetMinimumLevel(LogLevel.Debug);
-                  //    builder.AddLog4Net($"Log4Net.config");
-                  //});
         }
     }
 }

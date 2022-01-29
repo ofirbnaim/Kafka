@@ -20,8 +20,5 @@ namespace Spliter.Config
             public string BrokerName { get; set; }
             public IEnumerable<string> TopicsNames { get; set; }
         }
-
-
-
     }
 }

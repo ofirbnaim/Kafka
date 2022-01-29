@@ -1,0 +1,11 @@
+<Project Sdk="Microsoft.NET.Sdk.Worker">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UserSecretsId>dotnet-KafkaProducer-962C1887-C9CA-45DE-86EB-FDD8E9685812</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\KafkaConsumer\KafkaConsumer.csproj" />
+  </ItemGroup>
+</Project>

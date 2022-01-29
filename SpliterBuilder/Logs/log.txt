@@ -1,529 +1,94 @@
-2022-01-01 12:09:46.810 +02:00 [INF] Service is up and running!
-2022-01-01 12:09:46.853 +02:00 [INF] Worker running at: "2022-01-01T12:09:46.8490482+02:00"
-2022-01-01 12:09:47.902 +02:00 [INF] Worker running at: "2022-01-01T12:09:47.9019930+02:00"
-2022-01-01 12:09:48.928 +02:00 [INF] Worker running at: "2022-01-01T12:09:48.9283253+02:00"
-2022-01-01 12:09:49.930 +02:00 [INF] Worker running at: "2022-01-01T12:09:49.9304285+02:00"
-2022-01-01 12:09:50.946 +02:00 [INF] Worker running at: "2022-01-01T12:09:50.9460611+02:00"
-2022-01-01 12:09:51.958 +02:00 [INF] Worker running at: "2022-01-01T12:09:51.9581409+02:00"
-2022-01-01 12:09:52.969 +02:00 [INF] Worker running at: "2022-01-01T12:09:52.9694094+02:00"
-2022-01-01 12:09:53.987 +02:00 [INF] Worker running at: "2022-01-01T12:09:53.9874895+02:00"
-2022-01-01 12:09:55.001 +02:00 [INF] Worker running at: "2022-01-01T12:09:55.0017179+02:00"
-2022-01-01 12:09:56.015 +02:00 [INF] Worker running at: "2022-01-01T12:09:56.0154789+02:00"
-2022-01-01 12:09:57.028 +02:00 [INF] Worker running at: "2022-01-01T12:09:57.0287927+02:00"
-2022-01-01 12:09:58.045 +02:00 [INF] Worker running at: "2022-01-01T12:09:58.0448084+02:00"
-2022-01-01 12:09:59.054 +02:00 [INF] Worker running at: "2022-01-01T12:09:59.0547215+02:00"
-2022-01-01 12:10:00.056 +02:00 [INF] Worker running at: "2022-01-01T12:10:00.0560557+02:00"
-2022-01-01 12:10:01.072 +02:00 [INF] Worker running at: "2022-01-01T12:10:01.0719312+02:00"
-2022-01-01 12:10:02.085 +02:00 [INF] Worker running at: "2022-01-01T12:10:02.0851027+02:00"
-2022-01-01 12:10:03.114 +02:00 [INF] Worker running at: "2022-01-01T12:10:03.1139728+02:00"
-2022-01-01 12:10:04.130 +02:00 [INF] Worker running at: "2022-01-01T12:10:04.1303047+02:00"
-2022-01-01 12:10:05.142 +02:00 [INF] Worker running at: "2022-01-01T12:10:05.1423713+02:00"
-2022-01-01 12:10:06.144 +02:00 [INF] Worker running at: "2022-01-01T12:10:06.1446070+02:00"
-2022-01-01 12:10:07.154 +02:00 [INF] Worker running at: "2022-01-01T12:10:07.1547714+02:00"
-2022-01-01 12:10:08.168 +02:00 [INF] Worker running at: "2022-01-01T12:10:08.1688417+02:00"
-2022-01-01 12:10:09.178 +02:00 [INF] Worker running at: "2022-01-01T12:10:09.1780365+02:00"
-2022-01-01 12:10:09.619 +02:00 [ERR] Service is down. closing now.
-2022-01-01 12:16:18.375 +02:00 [INF] Service is up and running!
-2022-01-01 12:16:18.804 +02:00 [INF] Worker running at: "2022-01-01T12:16:18.8002411+02:00"
-2022-01-01 12:16:19.841 +02:00 [INF] Worker running at: "2022-01-01T12:16:19.8416641+02:00"
-2022-01-01 12:16:20.866 +02:00 [INF] Worker running at: "2022-01-01T12:16:20.8658563+02:00"
-2022-01-01 12:16:21.871 +02:00 [INF] Worker running at: "2022-01-01T12:16:21.8712610+02:00"
-2022-01-01 12:16:22.883 +02:00 [INF] Worker running at: "2022-01-01T12:16:22.8828117+02:00"
-2022-01-01 12:16:23.893 +02:00 [INF] Worker running at: "2022-01-01T12:16:23.8937176+02:00"
-2022-01-01 12:16:24.910 +02:00 [INF] Worker running at: "2022-01-01T12:16:24.9099754+02:00"
-2022-01-01 12:16:25.926 +02:00 [INF] Worker running at: "2022-01-01T12:16:25.9266150+02:00"
-2022-01-01 12:16:26.941 +02:00 [INF] Worker running at: "2022-01-01T12:16:26.9411045+02:00"
-2022-01-01 12:16:27.969 +02:00 [INF] Worker running at: "2022-01-01T12:16:27.9694037+02:00"
-2022-01-01 12:16:28.974 +02:00 [INF] Worker running at: "2022-01-01T12:16:28.9740185+02:00"
-2022-01-01 12:16:29.977 +02:00 [INF] Worker running at: "2022-01-01T12:16:29.9771647+02:00"
-2022-01-01 12:16:30.989 +02:00 [INF] Worker running at: "2022-01-01T12:16:30.9870538+02:00"
-2022-01-01 12:16:32.000 +02:00 [INF] Worker running at: "2022-01-01T12:16:31.9998662+02:00"
-2022-01-01 12:17:14.684 +02:00 [INF] Service is up and running!
-2022-01-01 12:17:15.128 +02:00 [INF] Worker running at: "2022-01-01T12:17:15.1246925+02:00"
-2022-01-01 12:17:16.153 +02:00 [INF] Worker running at: "2022-01-01T12:17:16.1533774+02:00"
-2022-01-01 12:17:17.170 +02:00 [INF] Worker running at: "2022-01-01T12:17:17.1698576+02:00"
-2022-01-01 12:17:18.185 +02:00 [INF] Worker running at: "2022-01-01T12:17:18.1848443+02:00"
-2022-01-01 12:17:19.190 +02:00 [INF] Worker running at: "2022-01-01T12:17:19.1902700+02:00"
-2022-01-01 12:17:20.202 +02:00 [INF] Worker running at: "2022-01-01T12:17:20.2023275+02:00"
-2022-01-01 12:17:21.215 +02:00 [INF] Worker running at: "2022-01-01T12:17:21.2149434+02:00"
-2022-01-01 12:17:22.231 +02:00 [INF] Worker running at: "2022-01-01T12:17:22.2311622+02:00"
-2022-01-01 12:17:22.321 +02:00 [ERR] Service is down. closing now.
-2022-01-03 09:19:50.142 +02:00 [INF] Service is up and running!
-2022-01-03 09:19:58.505 +02:00 [INF] Worker running at: "2022-01-03T09:19:58.4801179+02:00"
-2022-01-03 09:19:59.634 +02:00 [INF] Worker running at: "2022-01-03T09:19:59.6333956+02:00"
-2022-01-03 09:20:00.641 +02:00 [INF] Worker running at: "2022-01-03T09:20:00.6409505+02:00"
-2022-01-03 09:20:01.683 +02:00 [INF] Worker running at: "2022-01-03T09:20:01.6829477+02:00"
-2022-01-03 09:20:02.696 +02:00 [INF] Worker running at: "2022-01-03T09:20:02.6953554+02:00"
-2022-01-03 09:20:03.707 +02:00 [INF] Worker running at: "2022-01-03T09:20:03.7068626+02:00"
-2022-01-03 19:10:33.550 +02:00 [INF] Service is up and running!
-2022-01-03 19:10:35.818 +02:00 [FTL] There was a problem starting the service
-2022-01-03 19:15:48.292 +02:00 [INF] Service is up and running!
-2022-01-03 19:15:49.347 +02:00 [FTL] There was a problem starting the service
-2022-01-04 07:20:23.480 +02:00 [INF] Service is up and running!
-2022-01-04 07:20:25.788 +02:00 [FTL] There was a problem starting the service
-2022-01-04 07:23:25.265 +02:00 [INF] Service is up and running!
-2022-01-04 07:23:26.493 +02:00 [FTL] There was a problem starting the service
-2022-01-04 07:24:33.971 +02:00 [INF] Service is up and running!
-2022-01-04 07:24:35.375 +02:00 [FTL] There was a problem starting the service
-2022-01-04 07:25:12.876 +02:00 [INF] Service is up and running!
-2022-01-04 07:25:55.799 +02:00 [INF] Service is up and running!
-2022-01-04 07:26:02.411 +02:00 [INF] Worker running at: "2022-01-04T07:26:02.3810020+02:00"
-2022-01-04 07:26:04.251 +02:00 [INF] Worker running at: "2022-01-04T07:26:04.2501470+02:00"
-2022-01-04 07:26:05.341 +02:00 [INF] Worker running at: "2022-01-04T07:26:05.3410131+02:00"
-2022-01-04 07:26:06.409 +02:00 [INF] Worker running at: "2022-01-04T07:26:06.4090868+02:00"
-2022-01-04 07:26:07.479 +02:00 [INF] Worker running at: "2022-01-04T07:26:07.4785298+02:00"
-2022-01-04 07:26:08.589 +02:00 [INF] Worker running at: "2022-01-04T07:26:08.5893655+02:00"
-2022-01-04 07:26:09.666 +02:00 [INF] Worker running at: "2022-01-04T07:26:09.6657692+02:00"
-2022-01-04 07:26:10.754 +02:00 [INF] Worker running at: "2022-01-04T07:26:10.7538011+02:00"
-2022-01-04 07:26:11.843 +02:00 [INF] Worker running at: "2022-01-04T07:26:11.8428117+02:00"
-2022-01-04 07:26:12.917 +02:00 [INF] Worker running at: "2022-01-04T07:26:12.9174756+02:00"
-2022-01-04 07:26:13.985 +02:00 [INF] Worker running at: "2022-01-04T07:26:13.9853592+02:00"
-2022-01-04 07:26:14.551 +02:00 [ERR] Service is down. closing now.
-2022-01-05 09:18:29.074 +02:00 [INF] Service is up and running!
-2022-01-05 09:18:31.621 +02:00 [FTL] There was a problem starting the service
-2022-01-05 09:19:35.315 +02:00 [INF] Service is up and running!
-2022-01-05 09:19:36.376 +02:00 [FTL] There was a problem starting the service
-2022-01-05 09:21:09.926 +02:00 [INF] Service is up and running!
-2022-01-05 20:52:15.779 +02:00 [INF] Service is up and running!
-2022-01-05 20:52:18.774 +02:00 [FTL] There was a problem starting the service
-2022-01-05 20:53:31.821 +02:00 [INF] Service is up and running!
-2022-01-05 20:55:18.089 +02:00 [INF] Service is up and running!
-2022-01-05 20:58:01.244 +02:00 [INF] Service is up and running!
-2022-01-05 20:59:05.809 +02:00 [INF] Service is up and running!
-2022-01-05 21:01:44.097 +02:00 [INF] Service is up and running!
-2022-01-05 21:05:49.188 +02:00 [INF] Service is up and running!
-2022-01-05 21:11:49.225 +02:00 [INF] Service is up and running!
-2022-01-05 21:11:50.266 +02:00 [FTL] There was a problem starting the service
-System.ArgumentNullException: Value cannot be null. (Parameter 'implementationInstance')
-   at Microsoft.Extensions.DependencyInjection.ServiceCollectionServiceExtensions.AddSingleton[TService](IServiceCollection services, TService implementationInstance)
-   at Spliter.Program.<>c.<CreateHostBuilder>b__1_0(HostBuilderContext hostContext, IServiceCollection services) in C:\Dev\SpliterBuilder\Spliter\Program.cs:line 53
-   at Microsoft.Extensions.Hosting.HostBuilder.CreateServiceProvider()
-   at Microsoft.Extensions.Hosting.HostBuilder.Build()
-   at Spliter.Program.Main(String[] args) in C:\Dev\SpliterBuilder\Spliter\Program.cs:line 29
-2022-01-05 22:38:09.718 +02:00 [INF] Service is up and running!
-2022-01-05 22:38:53.897 +02:00 [FTL] There was a problem starting the service
-System.ArgumentNullException: Value cannot be null. (Parameter 'implementationInstance')
-   at Microsoft.Extensions.DependencyInjection.ServiceCollectionServiceExtensions.AddSingleton[TService](IServiceCollection services, TService implementationInstance)
-   at Spliter.Program.<>c.<CreateHostBuilder>b__1_0(HostBuilderContext hostContext, IServiceCollection services) in C:\Dev\SpliterBuilder\Spliter\Program.cs:line 50
-   at Microsoft.Extensions.Hosting.HostBuilder.CreateServiceProvider()
-   at Microsoft.Extensions.Hosting.HostBuilder.Build()
-   at Spliter.Program.Main(String[] args) in C:\Dev\SpliterBuilder\Spliter\Program.cs:line 29
-2022-01-05 22:39:08.647 +02:00 [INF] Service is up and running!
-2022-01-05 22:40:02.308 +02:00 [FTL] There was a problem starting the service
-System.ArgumentNullException: Value cannot be null. (Parameter 'implementationInstance')
-   at Microsoft.Extensions.DependencyInjection.ServiceCollectionServiceExtensions.AddSingleton[TService](IServiceCollection services, TService implementationInstance)
-   at Spliter.Program.<>c.<CreateHostBuilder>b__1_0(HostBuilderContext hostContext, IServiceCollection services) in C:\Dev\SpliterBuilder\Spliter\Program.cs:line 50
-   at Microsoft.Extensions.Hosting.HostBuilder.CreateServiceProvider()
-   at Microsoft.Extensions.Hosting.HostBuilder.Build()
-   at Spliter.Program.Main(String[] args) in C:\Dev\SpliterBuilder\Spliter\Program.cs:line 29
-2022-01-05 22:44:43.438 +02:00 [INF] Service is up and running!
-2022-01-05 22:44:44.800 +02:00 [FTL] There was a problem starting the service
-System.ArgumentNullException: Value cannot be null. (Parameter 'implementationInstance')
-   at Microsoft.Extensions.DependencyInjection.ServiceCollectionServiceExtensions.AddSingleton[TService](IServiceCollection services, TService implementationInstance)
-   at Spliter.Program.<>c.<CreateHostBuilder>b__1_0(HostBuilderContext hostContext, IServiceCollection services) in C:\Dev\SpliterBuilder\Spliter\Program.cs:line 53
-   at Microsoft.Extensions.Hosting.HostBuilder.CreateServiceProvider()
-   at Microsoft.Extensions.Hosting.HostBuilder.Build()
-   at Spliter.Program.Main(String[] args) in C:\Dev\SpliterBuilder\Spliter\Program.cs:line 29
-2022-01-05 22:45:33.065 +02:00 [INF] Service is up and running!
-2022-01-05 22:46:02.562 +02:00 [FTL] There was a problem starting the service
-System.ArgumentNullException: Value cannot be null. (Parameter 'implementationInstance')
-   at Microsoft.Extensions.DependencyInjection.ServiceCollectionServiceExtensions.AddSingleton[TService](IServiceCollection services, TService implementationInstance)
-   at Spliter.Program.<>c.<CreateHostBuilder>b__1_0(HostBuilderContext hostContext, IServiceCollection services) in C:\Dev\SpliterBuilder\Spliter\Program.cs:line 53
-   at Microsoft.Extensions.Hosting.HostBuilder.CreateServiceProvider()
-   at Microsoft.Extensions.Hosting.HostBuilder.Build()
-   at Spliter.Program.Main(String[] args) in C:\Dev\SpliterBuilder\Spliter\Program.cs:line 29
-2022-01-05 22:47:22.466 +02:00 [INF] Service is up and running!
-2022-01-05 22:49:40.622 +02:00 [INF] Service is up and running!
-2022-01-05 22:49:43.398 +02:00 [FTL] There was a problem starting the service
-System.ArgumentNullException: Value cannot be null. (Parameter 'implementationInstance')
-   at Microsoft.Extensions.DependencyInjection.ServiceCollectionServiceExtensions.AddSingleton[TService](IServiceCollection services, TService implementationInstance)
-   at Spliter.Program.<>c.<CreateHostBuilder>b__1_0(HostBuilderContext hostContext, IServiceCollection services) in C:\Dev\SpliterBuilder\Spliter\Program.cs:line 53
-   at Microsoft.Extensions.Hosting.HostBuilder.CreateServiceProvider()
-   at Microsoft.Extensions.Hosting.HostBuilder.Build()
-   at Spliter.Program.Main(String[] args) in C:\Dev\SpliterBuilder\Spliter\Program.cs:line 29
-2022-01-05 22:53:26.880 +02:00 [INF] Service is up and running!
-2022-01-05 22:56:08.217 +02:00 [INF] Service is up and running!
-2022-01-05 22:56:09.386 +02:00 [FTL] There was a problem starting the service
-System.ArgumentNullException: Value cannot be null. (Parameter 'implementationInstance')
-   at Microsoft.Extensions.DependencyInjection.ServiceCollectionServiceExtensions.AddSingleton[TService](IServiceCollection services, TService implementationInstance)
-   at Spliter.Program.<>c.<CreateHostBuilder>b__1_0(HostBuilderContext hostContext, IServiceCollection services) in C:\Dev\SpliterBuilder\Spliter\Program.cs:line 55
-   at Microsoft.Extensions.Hosting.HostBuilder.CreateServiceProvider()
-   at Microsoft.Extensions.Hosting.HostBuilder.Build()
-   at Spliter.Program.Main(String[] args) in C:\Dev\SpliterBuilder\Spliter\Program.cs:line 30
-2022-01-05 23:03:09.692 +02:00 [INF] Service is up and running!
-2022-01-05 23:03:10.829 +02:00 [FTL] There was a problem starting the service
-System.ArgumentNullException: Value cannot be null. (Parameter 'implementationInstance')
-   at Microsoft.Extensions.DependencyInjection.ServiceCollectionServiceExtensions.AddSingleton[TService](IServiceCollection services, TService implementationInstance)
-   at Spliter.Program.<>c.<CreateHostBuilder>b__1_0(HostBuilderContext hostContext, IServiceCollection services) in C:\Dev\SpliterBuilder\Spliter\Program.cs:line 55
-   at Microsoft.Extensions.Hosting.HostBuilder.CreateServiceProvider()
-   at Microsoft.Extensions.Hosting.HostBuilder.Build()
-   at Spliter.Program.Main(String[] args) in C:\Dev\SpliterBuilder\Spliter\Program.cs:line 30
-2022-01-05 23:03:32.199 +02:00 [INF] Service is up and running!
-2022-01-05 23:03:33.549 +02:00 [FTL] There was a problem starting the service
-System.ArgumentNullException: Value cannot be null. (Parameter 'implementationInstance')
-   at Microsoft.Extensions.DependencyInjection.ServiceCollectionServiceExtensions.AddSingleton[TService](IServiceCollection services, TService implementationInstance)
-   at Spliter.Program.<>c.<CreateHostBuilder>b__1_0(HostBuilderContext hostContext, IServiceCollection services) in C:\Dev\SpliterBuilder\Spliter\Program.cs:line 55
-   at Microsoft.Extensions.Hosting.HostBuilder.CreateServiceProvider()
-   at Microsoft.Extensions.Hosting.HostBuilder.Build()
-   at Spliter.Program.Main(String[] args) in C:\Dev\SpliterBuilder\Spliter\Program.cs:line 30
-2022-01-05 23:04:27.554 +02:00 [INF] Service is up and running!
-2022-01-05 23:04:28.839 +02:00 [FTL] There was a problem starting the service
-System.AggregateException: Some services are not able to be constructed (Error while validating the service descriptor 'ServiceType: Spliter.Logic.IKafkaConnections Lifetime: Singleton ImplementationType: Spliter.Logic.KafkaConnections': Unable to resolve service for type 'Spliter.Config.KafkaConfig' while attempting to activate 'Spliter.Logic.KafkaConnections'.) (Error while validating the service descriptor 'ServiceType: Microsoft.Extensions.Hosting.IHostedService Lifetime: Singleton ImplementationType: Spliter.Worker': Unable to resolve service for type 'Spliter.Config.KafkaConfig' while attempting to activate 'Spliter.Logic.KafkaConnections'.)
- ---> System.InvalidOperationException: Error while validating the service descriptor 'ServiceType: Spliter.Logic.IKafkaConnections Lifetime: Singleton ImplementationType: Spliter.Logic.KafkaConnections': Unable to resolve service for type 'Spliter.Config.KafkaConfig' while attempting to activate 'Spliter.Logic.KafkaConnections'.
- ---> System.InvalidOperationException: Unable to resolve service for type 'Spliter.Config.KafkaConfig' while attempting to activate 'Spliter.Logic.KafkaConnections'.
-   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateArgumentCallSites(Type implementationType, CallSiteChain callSiteChain, ParameterInfo[] parameters, Boolean throwIfCallSiteNotFound)
-   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateConstructorCallSite(ResultCache lifetime, Type serviceType, Type implementationType, CallSiteChain callSiteChain)
-   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.TryCreateExact(ServiceDescriptor descriptor, Type serviceType, CallSiteChain callSiteChain, Int32 slot)
-   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.GetCallSite(ServiceDescriptor serviceDescriptor, CallSiteChain callSiteChain)
-   at Microsoft.Extensions.DependencyInjection.ServiceProvider.ValidateService(ServiceDescriptor descriptor)
-   --- End of inner exception stack trace ---
-   at Microsoft.Extensions.DependencyInjection.ServiceProvider.ValidateService(ServiceDescriptor descriptor)
-   at Microsoft.Extensions.DependencyInjection.ServiceProvider..ctor(ICollection`1 serviceDescriptors, ServiceProviderOptions options)
-   --- End of inner exception stack trace ---
-   at Microsoft.Extensions.DependencyInjection.ServiceProvider..ctor(ICollection`1 serviceDescriptors, ServiceProviderOptions options)
-   at Microsoft.Extensions.DependencyInjection.ServiceCollectionContainerBuilderExtensions.BuildServiceProvider(IServiceCollection services, ServiceProviderOptions options)
-   at Microsoft.Extensions.DependencyInjection.DefaultServiceProviderFactory.CreateServiceProvider(IServiceCollection containerBuilder)
-   at Microsoft.Extensions.Hosting.Internal.ServiceFactoryAdapter`1.CreateServiceProvider(Object containerBuilder)
-   at Microsoft.Extensions.Hosting.HostBuilder.CreateServiceProvider()
-   at Microsoft.Extensions.Hosting.HostBuilder.Build()
-   at Spliter.Program.Main(String[] args) in C:\Dev\SpliterBuilder\Spliter\Program.cs:line 30
- ---> (Inner Exception #1) System.InvalidOperationException: Error while validating the service descriptor 'ServiceType: Microsoft.Extensions.Hosting.IHostedService Lifetime: Singleton ImplementationType: Spliter.Worker': Unable to resolve service for type 'Spliter.Config.KafkaConfig' while attempting to activate 'Spliter.Logic.KafkaConnections'.
- ---> System.InvalidOperationException: Unable to resolve service for type 'Spliter.Config.KafkaConfig' while attempting to activate 'Spliter.Logic.KafkaConnections'.
-   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateArgumentCallSites(Type implementationType, CallSiteChain callSiteChain, ParameterInfo[] parameters, Boolean throwIfCallSiteNotFound)
-   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateConstructorCallSite(ResultCache lifetime, Type serviceType, Type implementationType, CallSiteChain callSiteChain)
-   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.TryCreateExact(ServiceDescriptor descriptor, Type serviceType, CallSiteChain callSiteChain, Int32 slot)
-   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.TryCreateExact(Type serviceType, CallSiteChain callSiteChain)
-   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateCallSite(Type serviceType, CallSiteChain callSiteChain)
-   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.GetCallSite(Type serviceType, CallSiteChain callSiteChain)
-   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateArgumentCallSites(Type implementationType, CallSiteChain callSiteChain, ParameterInfo[] parameters, Boolean throwIfCallSiteNotFound)
-   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateConstructorCallSite(ResultCache lifetime, Type serviceType, Type implementationType, CallSiteChain callSiteChain)
-   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.TryCreateExact(ServiceDescriptor descriptor, Type serviceType, CallSiteChain callSiteChain, Int32 slot)
-   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.GetCallSite(ServiceDescriptor serviceDescriptor, CallSiteChain callSiteChain)
-   at Microsoft.Extensions.DependencyInjection.ServiceProvider.ValidateService(ServiceDescriptor descriptor)
-   --- End of inner exception stack trace ---
-   at Microsoft.Extensions.DependencyInjection.ServiceProvider.ValidateService(ServiceDescriptor descriptor)
-   at Microsoft.Extensions.DependencyInjection.ServiceProvider..ctor(ICollection`1 serviceDescriptors, ServiceProviderOptions options)<---
-
-2022-01-05 23:05:56.089 +02:00 [INF] Service is up and running!
-2022-01-05 23:05:57.644 +02:00 [FTL] There was a problem starting the service
-System.ArgumentNullException: Value cannot be null. (Parameter 'implementationInstance')
-   at Microsoft.Extensions.DependencyInjection.ServiceCollectionServiceExtensions.AddSingleton[TService](IServiceCollection services, TService implementationInstance)
-   at Spliter.Program.<>c.<CreateHostBuilder>b__1_0(HostBuilderContext hostContext, IServiceCollection services) in C:\Dev\SpliterBuilder\Spliter\Program.cs:line 55
-   at Microsoft.Extensions.Hosting.HostBuilder.CreateServiceProvider()
-   at Microsoft.Extensions.Hosting.HostBuilder.Build()
-   at Spliter.Program.Main(String[] args) in C:\Dev\SpliterBuilder\Spliter\Program.cs:line 30
-2022-01-05 23:12:04.695 +02:00 [INF] Service is up and running!
-2022-01-05 23:12:06.017 +02:00 [FTL] There was a problem starting the service
-System.AggregateException: Some services are not able to be constructed (Error while validating the service descriptor 'ServiceType: Microsoft.Extensions.Hosting.IHostedService Lifetime: Singleton ImplementationType: Spliter.Worker': Unable to resolve service for type 'Spliter.Logic.IKafkaConnections' while attempting to activate 'Spliter.Worker'.)
- ---> System.InvalidOperationException: Error while validating the service descriptor 'ServiceType: Microsoft.Extensions.Hosting.IHostedService Lifetime: Singleton ImplementationType: Spliter.Worker': Unable to resolve service for type 'Spliter.Logic.IKafkaConnections' while attempting to activate 'Spliter.Worker'.
- ---> System.InvalidOperationException: Unable to resolve service for type 'Spliter.Logic.IKafkaConnections' while attempting to activate 'Spliter.Worker'.
-   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateArgumentCallSites(Type implementationType, CallSiteChain callSiteChain, ParameterInfo[] parameters, Boolean throwIfCallSiteNotFound)
-   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateConstructorCallSite(ResultCache lifetime, Type serviceType, Type implementationType, CallSiteChain callSiteChain)
-   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.TryCreateExact(ServiceDescriptor descriptor, Type serviceType, CallSiteChain callSiteChain, Int32 slot)
-   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.GetCallSite(ServiceDescriptor serviceDescriptor, CallSiteChain callSiteChain)
-   at Microsoft.Extensions.DependencyInjection.ServiceProvider.ValidateService(ServiceDescriptor descriptor)
-   --- End of inner exception stack trace ---
-   at Microsoft.Extensions.DependencyInjection.ServiceProvider.ValidateService(ServiceDescriptor descriptor)
-   at Microsoft.Extensions.DependencyInjection.ServiceProvider..ctor(ICollection`1 serviceDescriptors, ServiceProviderOptions options)
-   --- End of inner exception stack trace ---
-   at Microsoft.Extensions.DependencyInjection.ServiceProvider..ctor(ICollection`1 serviceDescriptors, ServiceProviderOptions options)
-   at Microsoft.Extensions.DependencyInjection.ServiceCollectionContainerBuilderExtensions.BuildServiceProvider(IServiceCollection services, ServiceProviderOptions options)
-   at Microsoft.Extensions.DependencyInjection.DefaultServiceProviderFactory.CreateServiceProvider(IServiceCollection containerBuilder)
-   at Microsoft.Extensions.Hosting.Internal.ServiceFactoryAdapter`1.CreateServiceProvider(Object containerBuilder)
-   at Microsoft.Extensions.Hosting.HostBuilder.CreateServiceProvider()
-   at Microsoft.Extensions.Hosting.HostBuilder.Build()
-   at Spliter.Program.Main(String[] args) in C:\Dev\SpliterBuilder\Spliter\Program.cs:line 30
-2022-01-05 23:13:37.209 +02:00 [INF] Service is up and running!
-2022-01-05 23:13:38.440 +02:00 [FTL] There was a problem starting the service
-System.AggregateException: Some services are not able to be constructed (Error while validating the service descriptor 'ServiceType: Microsoft.Extensions.Hosting.IHostedService Lifetime: Singleton ImplementationType: Spliter.Worker': Unable to resolve service for type 'Spliter.Logic.KafkaConnections' while attempting to activate 'Spliter.Worker'.)
- ---> System.InvalidOperationException: Error while validating the service descriptor 'ServiceType: Microsoft.Extensions.Hosting.IHostedService Lifetime: Singleton ImplementationType: Spliter.Worker': Unable to resolve service for type 'Spliter.Logic.KafkaConnections' while attempting to activate 'Spliter.Worker'.
- ---> System.InvalidOperationException: Unable to resolve service for type 'Spliter.Logic.KafkaConnections' while attempting to activate 'Spliter.Worker'.
-   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateArgumentCallSites(Type implementationType, CallSiteChain callSiteChain, ParameterInfo[] parameters, Boolean throwIfCallSiteNotFound)
-   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateConstructorCallSite(ResultCache lifetime, Type serviceType, Type implementationType, CallSiteChain callSiteChain)
-   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.TryCreateExact(ServiceDescriptor descriptor, Type serviceType, CallSiteChain callSiteChain, Int32 slot)
-   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.GetCallSite(ServiceDescriptor serviceDescriptor, CallSiteChain callSiteChain)
-   at Microsoft.Extensions.DependencyInjection.ServiceProvider.ValidateService(ServiceDescriptor descriptor)
-   --- End of inner exception stack trace ---
-   at Microsoft.Extensions.DependencyInjection.ServiceProvider.ValidateService(ServiceDescriptor descriptor)
-   at Microsoft.Extensions.DependencyInjection.ServiceProvider..ctor(ICollection`1 serviceDescriptors, ServiceProviderOptions options)
-   --- End of inner exception stack trace ---
-   at Microsoft.Extensions.DependencyInjection.ServiceProvider..ctor(ICollection`1 serviceDescriptors, ServiceProviderOptions options)
-   at Microsoft.Extensions.DependencyInjection.ServiceCollectionContainerBuilderExtensions.BuildServiceProvider(IServiceCollection services, ServiceProviderOptions options)
-   at Microsoft.Extensions.DependencyInjection.DefaultServiceProviderFactory.CreateServiceProvider(IServiceCollection containerBuilder)
-   at Microsoft.Extensions.Hosting.Internal.ServiceFactoryAdapter`1.CreateServiceProvider(Object containerBuilder)
-   at Microsoft.Extensions.Hosting.HostBuilder.CreateServiceProvider()
-   at Microsoft.Extensions.Hosting.HostBuilder.Build()
-   at Spliter.Program.Main(String[] args) in C:\Dev\SpliterBuilder\Spliter\Program.cs:line 30
-2022-01-05 23:14:27.773 +02:00 [INF] Service is up and running!
-2022-01-05 23:14:29.113 +02:00 [FTL] There was a problem starting the service
-System.ArgumentNullException: Value cannot be null. (Parameter 'implementationInstance')
-   at Microsoft.Extensions.DependencyInjection.ServiceCollectionServiceExtensions.AddSingleton[TService](IServiceCollection services, TService implementationInstance)
-   at Spliter.Program.<>c.<CreateHostBuilder>b__1_0(HostBuilderContext hostContext, IServiceCollection services) in C:\Dev\SpliterBuilder\Spliter\Program.cs:line 56
-   at Microsoft.Extensions.Hosting.HostBuilder.CreateServiceProvider()
-   at Microsoft.Extensions.Hosting.HostBuilder.Build()
-   at Spliter.Program.Main(String[] args) in C:\Dev\SpliterBuilder\Spliter\Program.cs:line 30
-2022-01-05 23:20:42.507 +02:00 [INF] Service is up and running!
-2022-01-05 23:20:43.732 +02:00 [FTL] There was a problem starting the service
-System.ArgumentNullException: Value cannot be null. (Parameter 'implementationInstance')
-   at Microsoft.Extensions.DependencyInjection.ServiceCollectionServiceExtensions.AddSingleton[TService](IServiceCollection services, TService implementationInstance)
-   at Spliter.Program.<>c.<CreateHostBuilder>b__1_0(HostBuilderContext hostContext, IServiceCollection services) in C:\Dev\SpliterBuilder\Spliter\Program.cs:line 56
-   at Microsoft.Extensions.Hosting.HostBuilder.CreateServiceProvider()
-   at Microsoft.Extensions.Hosting.HostBuilder.Build()
-   at Spliter.Program.Main(String[] args) in C:\Dev\SpliterBuilder\Spliter\Program.cs:line 30
-2022-01-05 23:30:39.931 +02:00 [INF] Service is up and running!
-2022-01-05 23:30:41.056 +02:00 [FTL] There was a problem starting the service
-System.ArgumentNullException: Value cannot be null. (Parameter 'implementationInstance')
-   at Microsoft.Extensions.DependencyInjection.ServiceCollectionServiceExtensions.AddSingleton[TService](IServiceCollection services, TService implementationInstance)
-   at Spliter.Program.<>c.<CreateHostBuilder>b__1_0(HostBuilderContext hostContext, IServiceCollection services) in C:\Dev\SpliterBuilder\Spliter\Program.cs:line 53
-   at Microsoft.Extensions.Hosting.HostBuilder.CreateServiceProvider()
-   at Microsoft.Extensions.Hosting.HostBuilder.Build()
-   at Spliter.Program.Main(String[] args) in C:\Dev\SpliterBuilder\Spliter\Program.cs:line 30
-2022-01-05 23:32:45.415 +02:00 [INF] Service is up and running!
-2022-01-05 23:32:46.634 +02:00 [FTL] There was a problem starting the service
-System.ArgumentNullException: Value cannot be null. (Parameter 'implementationInstance')
-   at Microsoft.Extensions.DependencyInjection.ServiceCollectionServiceExtensions.AddSingleton[TService](IServiceCollection services, TService implementationInstance)
-   at Spliter.Program.<>c.<CreateHostBuilder>b__1_0(HostBuilderContext hostContext, IServiceCollection services) in C:\Dev\SpliterBuilder\Spliter\Program.cs:line 53
-   at Microsoft.Extensions.Hosting.HostBuilder.CreateServiceProvider()
-   at Microsoft.Extensions.Hosting.HostBuilder.Build()
-   at Spliter.Program.Main(String[] args) in C:\Dev\SpliterBuilder\Spliter\Program.cs:line 30
-2022-01-05 23:32:56.998 +02:00 [INF] Service is up and running!
-2022-01-05 23:32:58.093 +02:00 [FTL] There was a problem starting the service
-System.ArgumentNullException: Value cannot be null. (Parameter 'implementationInstance')
-   at Microsoft.Extensions.DependencyInjection.ServiceCollectionServiceExtensions.AddSingleton[TService](IServiceCollection services, TService implementationInstance)
-   at Spliter.Program.<>c.<CreateHostBuilder>b__1_0(HostBuilderContext hostContext, IServiceCollection services) in C:\Dev\SpliterBuilder\Spliter\Program.cs:line 53
-   at Microsoft.Extensions.Hosting.HostBuilder.CreateServiceProvider()
-   at Microsoft.Extensions.Hosting.HostBuilder.Build()
-   at Spliter.Program.Main(String[] args) in C:\Dev\SpliterBuilder\Spliter\Program.cs:line 30
-2022-01-05 23:36:33.289 +02:00 [INF] Service is up and running!
-2022-01-05 23:36:34.601 +02:00 [FTL] There was a problem starting the service
-System.ArgumentNullException: Value cannot be null. (Parameter 'implementationInstance')
-   at Microsoft.Extensions.DependencyInjection.ServiceCollectionServiceExtensions.AddSingleton[TService](IServiceCollection services, TService implementationInstance)
-   at Spliter.Program.<>c.<CreateHostBuilder>b__1_0(HostBuilderContext hostContext, IServiceCollection services) in C:\Dev\SpliterBuilder\Spliter\Program.cs:line 54
-   at Microsoft.Extensions.Hosting.HostBuilder.CreateServiceProvider()
-   at Microsoft.Extensions.Hosting.HostBuilder.Build()
-   at Spliter.Program.Main(String[] args) in C:\Dev\SpliterBuilder\Spliter\Program.cs:line 30
-2022-01-05 23:37:16.031 +02:00 [INF] Service is up and running!
-2022-01-05 23:37:17.143 +02:00 [FTL] There was a problem starting the service
-System.ArgumentNullException: Value cannot be null. (Parameter 'implementationInstance')
-   at Microsoft.Extensions.DependencyInjection.ServiceCollectionServiceExtensions.AddSingleton[TService](IServiceCollection services, TService implementationInstance)
-   at Spliter.Program.<>c.<CreateHostBuilder>b__1_0(HostBuilderContext hostContext, IServiceCollection services) in C:\Dev\SpliterBuilder\Spliter\Program.cs:line 54
-   at Microsoft.Extensions.Hosting.HostBuilder.CreateServiceProvider()
-   at Microsoft.Extensions.Hosting.HostBuilder.Build()
-   at Spliter.Program.Main(String[] args) in C:\Dev\SpliterBuilder\Spliter\Program.cs:line 30
-2022-01-05 23:38:05.048 +02:00 [INF] Service is up and running!
-2022-01-05 23:38:06.185 +02:00 [FTL] There was a problem starting the service
-System.ArgumentNullException: Value cannot be null. (Parameter 'implementationInstance')
-   at Microsoft.Extensions.DependencyInjection.ServiceCollectionServiceExtensions.AddSingleton[TService](IServiceCollection services, TService implementationInstance)
-   at Spliter.Program.<>c.<CreateHostBuilder>b__1_0(HostBuilderContext hostContext, IServiceCollection services) in C:\Dev\SpliterBuilder\Spliter\Program.cs:line 54
-   at Microsoft.Extensions.Hosting.HostBuilder.CreateServiceProvider()
-   at Microsoft.Extensions.Hosting.HostBuilder.Build()
-   at Spliter.Program.Main(String[] args) in C:\Dev\SpliterBuilder\Spliter\Program.cs:line 30
-2022-01-05 23:39:17.779 +02:00 [INF] Service is up and running!
-2022-01-05 23:39:18.907 +02:00 [FTL] There was a problem starting the service
-System.ArgumentNullException: Value cannot be null. (Parameter 'implementationInstance')
-   at Microsoft.Extensions.DependencyInjection.ServiceCollectionServiceExtensions.AddSingleton[TService](IServiceCollection services, TService implementationInstance)
-   at Spliter.Program.<>c.<CreateHostBuilder>b__1_0(HostBuilderContext hostContext, IServiceCollection services) in C:\Dev\SpliterBuilder\Spliter\Program.cs:line 54
-   at Microsoft.Extensions.Hosting.HostBuilder.CreateServiceProvider()
-   at Microsoft.Extensions.Hosting.HostBuilder.Build()
-   at Spliter.Program.Main(String[] args) in C:\Dev\SpliterBuilder\Spliter\Program.cs:line 30
-2022-01-05 23:41:25.656 +02:00 [INF] Service is up and running!
-2022-01-05 23:41:27.147 +02:00 [FTL] There was a problem starting the service
-System.ArgumentNullException: Value cannot be null. (Parameter 'implementationInstance')
-   at Microsoft.Extensions.DependencyInjection.ServiceCollectionServiceExtensions.AddSingleton[TService](IServiceCollection services, TService implementationInstance)
-   at Spliter.Program.<>c.<CreateHostBuilder>b__1_0(HostBuilderContext hostContext, IServiceCollection services) in C:\Dev\SpliterBuilder\Spliter\Program.cs:line 51
-   at Microsoft.Extensions.Hosting.HostBuilder.CreateServiceProvider()
-   at Microsoft.Extensions.Hosting.HostBuilder.Build()
-   at Spliter.Program.Main(String[] args) in C:\Dev\SpliterBuilder\Spliter\Program.cs:line 27
-2022-01-05 23:41:55.943 +02:00 [INF] Service is up and running!
-2022-01-05 23:41:57.169 +02:00 [FTL] There was a problem starting the service
-System.ArgumentNullException: Value cannot be null. (Parameter 'implementationInstance')
-   at Microsoft.Extensions.DependencyInjection.ServiceCollectionServiceExtensions.AddSingleton[TService](IServiceCollection services, TService implementationInstance)
-   at Spliter.Program.<>c.<CreateHostBuilder>b__1_0(HostBuilderContext hostContext, IServiceCollection services) in C:\Dev\SpliterBuilder\Spliter\Program.cs:line 51
-   at Microsoft.Extensions.Hosting.HostBuilder.CreateServiceProvider()
-   at Microsoft.Extensions.Hosting.HostBuilder.Build()
-   at Spliter.Program.Main(String[] args) in C:\Dev\SpliterBuilder\Spliter\Program.cs:line 27
-2022-01-05 23:43:01.601 +02:00 [INF] Service is up and running!
-2022-01-05 23:43:02.815 +02:00 [FTL] There was a problem starting the service
-System.ArgumentNullException: Value cannot be null. (Parameter 'implementationInstance')
-   at Microsoft.Extensions.DependencyInjection.ServiceCollectionServiceExtensions.AddSingleton[TService](IServiceCollection services, TService implementationInstance)
-   at Spliter.Program.<>c.<CreateHostBuilder>b__1_0(HostBuilderContext hostContext, IServiceCollection services) in C:\Dev\SpliterBuilder\Spliter\Program.cs:line 49
-   at Microsoft.Extensions.Hosting.HostBuilder.CreateServiceProvider()
-   at Microsoft.Extensions.Hosting.HostBuilder.Build()
-   at Spliter.Program.Main(String[] args) in C:\Dev\SpliterBuilder\Spliter\Program.cs:line 27
-2022-01-05 23:44:41.274 +02:00 [INF] Service is up and running!
-2022-01-05 23:44:42.525 +02:00 [FTL] There was a problem starting the service
-System.ArgumentNullException: Value cannot be null. (Parameter 'implementationInstance')
-   at Microsoft.Extensions.DependencyInjection.ServiceCollectionServiceExtensions.AddSingleton[TService](IServiceCollection services, TService implementationInstance)
-   at Spliter.Program.<>c.<CreateHostBuilder>b__1_0(HostBuilderContext hostContext, IServiceCollection services) in C:\Dev\SpliterBuilder\Spliter\Program.cs:line 50
-   at Microsoft.Extensions.Hosting.HostBuilder.CreateServiceProvider()
-   at Microsoft.Extensions.Hosting.HostBuilder.Build()
-   at Spliter.Program.Main(String[] args) in C:\Dev\SpliterBuilder\Spliter\Program.cs:line 27
-2022-01-05 23:47:16.648 +02:00 [INF] Service is up and running!
-2022-01-05 23:47:17.833 +02:00 [FTL] There was a problem starting the service
-System.AggregateException: Some services are not able to be constructed (Error while validating the service descriptor 'ServiceType: Spliter.Logic.IKafkaConnections Lifetime: Singleton ImplementationType: Spliter.Logic.KafkaConnections': Unable to resolve service for type 'Spliter.Config.KafkaConfig' while attempting to activate 'Spliter.Logic.KafkaConnections'.) (Error while validating the service descriptor 'ServiceType: Microsoft.Extensions.Hosting.IHostedService Lifetime: Singleton ImplementationType: Spliter.Worker': Unable to resolve service for type 'Spliter.Logic.KafkaConnections' while attempting to activate 'Spliter.Worker'.)
- ---> System.InvalidOperationException: Error while validating the service descriptor 'ServiceType: Spliter.Logic.IKafkaConnections Lifetime: Singleton ImplementationType: Spliter.Logic.KafkaConnections': Unable to resolve service for type 'Spliter.Config.KafkaConfig' while attempting to activate 'Spliter.Logic.KafkaConnections'.
- ---> System.InvalidOperationException: Unable to resolve service for type 'Spliter.Config.KafkaConfig' while attempting to activate 'Spliter.Logic.KafkaConnections'.
-   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateArgumentCallSites(Type implementationType, CallSiteChain callSiteChain, ParameterInfo[] parameters, Boolean throwIfCallSiteNotFound)
-   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateConstructorCallSite(ResultCache lifetime, Type serviceType, Type implementationType, CallSiteChain callSiteChain)
-   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.TryCreateExact(ServiceDescriptor descriptor, Type serviceType, CallSiteChain callSiteChain, Int32 slot)
-   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.GetCallSite(ServiceDescriptor serviceDescriptor, CallSiteChain callSiteChain)
-   at Microsoft.Extensions.DependencyInjection.ServiceProvider.ValidateService(ServiceDescriptor descriptor)
-   --- End of inner exception stack trace ---
-   at Microsoft.Extensions.DependencyInjection.ServiceProvider.ValidateService(ServiceDescriptor descriptor)
-   at Microsoft.Extensions.DependencyInjection.ServiceProvider..ctor(ICollection`1 serviceDescriptors, ServiceProviderOptions options)
-   --- End of inner exception stack trace ---
-   at Microsoft.Extensions.DependencyInjection.ServiceProvider..ctor(ICollection`1 serviceDescriptors, ServiceProviderOptions options)
-   at Microsoft.Extensions.DependencyInjection.ServiceCollectionContainerBuilderExtensions.BuildServiceProvider(IServiceCollection services, ServiceProviderOptions options)
-   at Microsoft.Extensions.DependencyInjection.DefaultServiceProviderFactory.CreateServiceProvider(IServiceCollection containerBuilder)
-   at Microsoft.Extensions.Hosting.Internal.ServiceFactoryAdapter`1.CreateServiceProvider(Object containerBuilder)
-   at Microsoft.Extensions.Hosting.HostBuilder.CreateServiceProvider()
-   at Microsoft.Extensions.Hosting.HostBuilder.Build()
-   at Spliter.Program.Main(String[] args) in C:\Dev\SpliterBuilder\Spliter\Program.cs:line 27
- ---> (Inner Exception #1) System.InvalidOperationException: Error while validating the service descriptor 'ServiceType: Microsoft.Extensions.Hosting.IHostedService Lifetime: Singleton ImplementationType: Spliter.Worker': Unable to resolve service for type 'Spliter.Logic.KafkaConnections' while attempting to activate 'Spliter.Worker'.
- ---> System.InvalidOperationException: Unable to resolve service for type 'Spliter.Logic.KafkaConnections' while attempting to activate 'Spliter.Worker'.
-   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateArgumentCallSites(Type implementationType, CallSiteChain callSiteChain, ParameterInfo[] parameters, Boolean throwIfCallSiteNotFound)
-   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateConstructorCallSite(ResultCache lifetime, Type serviceType, Type implementationType, CallSiteChain callSiteChain)
-   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.TryCreateExact(ServiceDescriptor descriptor, Type serviceType, CallSiteChain callSiteChain, Int32 slot)
-   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.GetCallSite(ServiceDescriptor serviceDescriptor, CallSiteChain callSiteChain)
-   at Microsoft.Extensions.DependencyInjection.ServiceProvider.ValidateService(ServiceDescriptor descriptor)
-   --- End of inner exception stack trace ---
-   at Microsoft.Extensions.DependencyInjection.ServiceProvider.ValidateService(ServiceDescriptor descriptor)
-   at Microsoft.Extensions.DependencyInjection.ServiceProvider..ctor(ICollection`1 serviceDescriptors, ServiceProviderOptions options)<---
-
-2022-01-05 23:48:34.219 +02:00 [INF] Service is up and running!
-2022-01-05 23:48:35.558 +02:00 [FTL] There was a problem starting the service
-System.ArgumentNullException: Value cannot be null. (Parameter 'implementationInstance')
-   at Microsoft.Extensions.DependencyInjection.ServiceCollectionServiceExtensions.AddSingleton[TService](IServiceCollection services, TService implementationInstance)
-   at Spliter.Program.<>c.<CreateHostBuilder>b__1_0(HostBuilderContext hostContext, IServiceCollection services) in C:\Dev\SpliterBuilder\Spliter\Program.cs:line 51
-   at Microsoft.Extensions.Hosting.HostBuilder.CreateServiceProvider()
-   at Microsoft.Extensions.Hosting.HostBuilder.Build()
-   at Spliter.Program.Main(String[] args) in C:\Dev\SpliterBuilder\Spliter\Program.cs:line 27
-2022-01-05 23:53:09.346 +02:00 [INF] Service is up and running!
-2022-01-05 23:53:10.507 +02:00 [FTL] There was a problem starting the service
-System.ArgumentNullException: Value cannot be null. (Parameter 'implementationInstance')
-   at Microsoft.Extensions.DependencyInjection.ServiceCollectionServiceExtensions.AddSingleton[TService](IServiceCollection services, TService implementationInstance)
-   at Spliter.Program.<>c.<CreateHostBuilder>b__1_0(HostBuilderContext hostContext, IServiceCollection services) in C:\Dev\SpliterBuilder\Spliter\Program.cs:line 51
-   at Microsoft.Extensions.Hosting.HostBuilder.CreateServiceProvider()
-   at Microsoft.Extensions.Hosting.HostBuilder.Build()
-   at Spliter.Program.Main(String[] args) in C:\Dev\SpliterBuilder\Spliter\Program.cs:line 27
-2022-01-05 23:57:11.589 +02:00 [INF] Service is up and running!
-2022-01-05 23:57:12.850 +02:00 [INF] Worker running at: "2022-01-05T23:57:12.8332628+02:00"
-2022-01-05 23:57:13.936 +02:00 [INF] Worker running at: "2022-01-05T23:57:13.9360484+02:00"
-2022-01-05 23:57:14.968 +02:00 [INF] Worker running at: "2022-01-05T23:57:14.9681316+02:00"
-2022-01-05 23:57:15.972 +02:00 [INF] Worker running at: "2022-01-05T23:57:15.9725090+02:00"
-2022-01-05 23:57:16.986 +02:00 [INF] Worker running at: "2022-01-05T23:57:16.9861911+02:00"
-2022-01-05 23:57:17.994 +02:00 [INF] Worker running at: "2022-01-05T23:57:17.9939491+02:00"
-2022-01-05 23:57:19.004 +02:00 [INF] Worker running at: "2022-01-05T23:57:19.0043182+02:00"
-2022-01-05 23:57:20.018 +02:00 [INF] Worker running at: "2022-01-05T23:57:20.0186402+02:00"
-2022-01-05 23:57:21.021 +02:00 [INF] Worker running at: "2022-01-05T23:57:21.0209659+02:00"
-2022-01-05 23:57:22.034 +02:00 [INF] Worker running at: "2022-01-05T23:57:22.0343219+02:00"
-2022-01-05 23:57:23.048 +02:00 [INF] Worker running at: "2022-01-05T23:57:23.0481339+02:00"
-2022-01-05 23:57:24.049 +02:00 [INF] Worker running at: "2022-01-05T23:57:24.0493745+02:00"
-2022-01-05 23:57:25.057 +02:00 [INF] Worker running at: "2022-01-05T23:57:25.0572664+02:00"
-2022-01-05 23:57:26.069 +02:00 [INF] Worker running at: "2022-01-05T23:57:26.0690858+02:00"
-2022-01-05 23:57:27.077 +02:00 [INF] Worker running at: "2022-01-05T23:57:27.0777027+02:00"
-2022-01-05 23:57:28.093 +02:00 [INF] Worker running at: "2022-01-05T23:57:28.0929269+02:00"
-2022-01-05 23:57:29.104 +02:00 [INF] Worker running at: "2022-01-05T23:57:29.1045600+02:00"
-2022-01-05 23:57:30.126 +02:00 [INF] Worker running at: "2022-01-05T23:57:30.1258799+02:00"
-2022-01-05 23:57:31.135 +02:00 [INF] Worker running at: "2022-01-05T23:57:31.1357564+02:00"
-2022-01-05 23:57:32.147 +02:00 [INF] Worker running at: "2022-01-05T23:57:32.1472082+02:00"
-2022-01-05 23:57:33.154 +02:00 [INF] Worker running at: "2022-01-05T23:57:33.1538557+02:00"
-2022-01-05 23:57:34.161 +02:00 [INF] Worker running at: "2022-01-05T23:57:34.1613908+02:00"
-2022-01-05 23:57:35.166 +02:00 [INF] Worker running at: "2022-01-05T23:57:35.1663907+02:00"
-2022-01-05 23:57:36.176 +02:00 [INF] Worker running at: "2022-01-05T23:57:36.1766759+02:00"
-2022-01-05 23:57:37.187 +02:00 [INF] Worker running at: "2022-01-05T23:57:37.1876880+02:00"
-2022-01-05 23:57:38.196 +02:00 [INF] Worker running at: "2022-01-05T23:57:38.1959322+02:00"
-2022-01-05 23:57:39.202 +02:00 [INF] Worker running at: "2022-01-05T23:57:39.2020507+02:00"
-2022-01-05 23:58:30.077 +02:00 [INF] Service is up and running!
-2022-01-05 23:58:31.372 +02:00 [FTL] There was a problem starting the service
-System.ArgumentNullException: Value cannot be null. (Parameter 'implementationInstance')
-   at Microsoft.Extensions.DependencyInjection.ServiceCollectionServiceExtensions.AddSingleton[TService](IServiceCollection services, TService implementationInstance)
-   at Spliter.Program.<>c.<CreateHostBuilder>b__1_0(HostBuilderContext hostContext, IServiceCollection services) in C:\Dev\SpliterBuilder\Spliter\Program.cs:line 51
-   at Microsoft.Extensions.Hosting.HostBuilder.CreateServiceProvider()
-   at Microsoft.Extensions.Hosting.HostBuilder.Build()
-   at Spliter.Program.Main(String[] args) in C:\Dev\SpliterBuilder\Spliter\Program.cs:line 27
-2022-01-06 00:02:41.696 +02:00 [INF] Service is up and running!
-2022-01-06 00:02:43.209 +02:00 [FTL] There was a problem starting the service
-System.ArgumentNullException: Value cannot be null. (Parameter 'implementationInstance')
-   at Microsoft.Extensions.DependencyInjection.ServiceCollectionServiceExtensions.AddSingleton[TService](IServiceCollection services, TService implementationInstance)
-   at Spliter.Program.<>c.<CreateHostBuilder>b__1_0(HostBuilderContext hostContext, IServiceCollection services) in C:\Dev\SpliterBuilder\Spliter\Program.cs:line 51
-   at Microsoft.Extensions.Hosting.HostBuilder.CreateServiceProvider()
-   at Microsoft.Extensions.Hosting.HostBuilder.Build()
-   at Spliter.Program.Main(String[] args) in C:\Dev\SpliterBuilder\Spliter\Program.cs:line 27
-2022-01-06 00:06:49.550 +02:00 [INF] Service is up and running!
-2022-01-06 00:07:10.143 +02:00 [INF] Service is up and running!
-2022-01-06 00:09:52.148 +02:00 [INF] Service is up and running!
-2022-01-06 00:10:41.929 +02:00 [FTL] There was a problem starting the service
-System.AggregateException: Some services are not able to be constructed (Error while validating the service descriptor 'ServiceType: Microsoft.Extensions.Hosting.IHostedService Lifetime: Singleton ImplementationType: Spliter.Worker': Unable to resolve service for type 'Spliter.Logic.IKafkaConnections' while attempting to activate 'Spliter.Worker'.)
- ---> System.InvalidOperationException: Error while validating the service descriptor 'ServiceType: Microsoft.Extensions.Hosting.IHostedService Lifetime: Singleton ImplementationType: Spliter.Worker': Unable to resolve service for type 'Spliter.Logic.IKafkaConnections' while attempting to activate 'Spliter.Worker'.
- ---> System.InvalidOperationException: Unable to resolve service for type 'Spliter.Logic.IKafkaConnections' while attempting to activate 'Spliter.Worker'.
-   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateArgumentCallSites(Type implementationType, CallSiteChain callSiteChain, ParameterInfo[] parameters, Boolean throwIfCallSiteNotFound)
-   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateConstructorCallSite(ResultCache lifetime, Type serviceType, Type implementationType, CallSiteChain callSiteChain)
-   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.TryCreateExact(ServiceDescriptor descriptor, Type serviceType, CallSiteChain callSiteChain, Int32 slot)
-   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.GetCallSite(ServiceDescriptor serviceDescriptor, CallSiteChain callSiteChain)
-   at Microsoft.Extensions.DependencyInjection.ServiceProvider.ValidateService(ServiceDescriptor descriptor)
-   --- End of inner exception stack trace ---
-   at Microsoft.Extensions.DependencyInjection.ServiceProvider.ValidateService(ServiceDescriptor descriptor)
-   at Microsoft.Extensions.DependencyInjection.ServiceProvider..ctor(ICollection`1 serviceDescriptors, ServiceProviderOptions options)
-   --- End of inner exception stack trace ---
-   at Microsoft.Extensions.DependencyInjection.ServiceProvider..ctor(ICollection`1 serviceDescriptors, ServiceProviderOptions options)
-   at Microsoft.Extensions.DependencyInjection.ServiceCollectionContainerBuilderExtensions.BuildServiceProvider(IServiceCollection services, ServiceProviderOptions options)
-   at Microsoft.Extensions.DependencyInjection.DefaultServiceProviderFactory.CreateServiceProvider(IServiceCollection containerBuilder)
-   at Microsoft.Extensions.Hosting.Internal.ServiceFactoryAdapter`1.CreateServiceProvider(Object containerBuilder)
-   at Microsoft.Extensions.Hosting.HostBuilder.CreateServiceProvider()
-   at Microsoft.Extensions.Hosting.HostBuilder.Build()
-   at Spliter.Program.Main(String[] args) in C:\Dev\SpliterBuilder\Spliter\Program.cs:line 27
-2022-01-06 00:11:11.798 +02:00 [INF] Service is up and running!
-2022-01-06 00:11:18.612 +02:00 [FTL] There was a problem starting the service
-System.AggregateException: Some services are not able to be constructed (Error while validating the service descriptor 'ServiceType: Microsoft.Extensions.Hosting.IHostedService Lifetime: Singleton ImplementationType: Spliter.Worker': Unable to resolve service for type 'Spliter.Logic.IKafkaConnections' while attempting to activate 'Spliter.Worker'.)
- ---> System.InvalidOperationException: Error while validating the service descriptor 'ServiceType: Microsoft.Extensions.Hosting.IHostedService Lifetime: Singleton ImplementationType: Spliter.Worker': Unable to resolve service for type 'Spliter.Logic.IKafkaConnections' while attempting to activate 'Spliter.Worker'.
- ---> System.InvalidOperationException: Unable to resolve service for type 'Spliter.Logic.IKafkaConnections' while attempting to activate 'Spliter.Worker'.
-   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateArgumentCallSites(Type implementationType, CallSiteChain callSiteChain, ParameterInfo[] parameters, Boolean throwIfCallSiteNotFound)
-   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateConstructorCallSite(ResultCache lifetime, Type serviceType, Type implementationType, CallSiteChain callSiteChain)
-   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.TryCreateExact(ServiceDescriptor descriptor, Type serviceType, CallSiteChain callSiteChain, Int32 slot)
-   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.GetCallSite(ServiceDescriptor serviceDescriptor, CallSiteChain callSiteChain)
-   at Microsoft.Extensions.DependencyInjection.ServiceProvider.ValidateService(ServiceDescriptor descriptor)
-   --- End of inner exception stack trace ---
-   at Microsoft.Extensions.DependencyInjection.ServiceProvider.ValidateService(ServiceDescriptor descriptor)
-   at Microsoft.Extensions.DependencyInjection.ServiceProvider..ctor(ICollection`1 serviceDescriptors, ServiceProviderOptions options)
-   --- End of inner exception stack trace ---
-   at Microsoft.Extensions.DependencyInjection.ServiceProvider..ctor(ICollection`1 serviceDescriptors, ServiceProviderOptions options)
-   at Microsoft.Extensions.DependencyInjection.ServiceCollectionContainerBuilderExtensions.BuildServiceProvider(IServiceCollection services, ServiceProviderOptions options)
-   at Microsoft.Extensions.DependencyInjection.DefaultServiceProviderFactory.CreateServiceProvider(IServiceCollection containerBuilder)
-   at Microsoft.Extensions.Hosting.Internal.ServiceFactoryAdapter`1.CreateServiceProvider(Object containerBuilder)
-   at Microsoft.Extensions.Hosting.HostBuilder.CreateServiceProvider()
-   at Microsoft.Extensions.Hosting.HostBuilder.Build()
-   at Spliter.Program.Main(String[] args) in C:\Dev\SpliterBuilder\Spliter\Program.cs:line 27
-2022-01-06 00:11:28.551 +02:00 [INF] Service is up and running!
-2022-01-06 00:11:34.474 +02:00 [FTL] There was a problem starting the service
-System.AggregateException: Some services are not able to be constructed (Error while validating the service descriptor 'ServiceType: Microsoft.Extensions.Hosting.IHostedService Lifetime: Singleton ImplementationType: Spliter.Worker': Unable to resolve service for type 'Spliter.Logic.IKafkaConnections' while attempting to activate 'Spliter.Worker'.)
- ---> System.InvalidOperationException: Error while validating the service descriptor 'ServiceType: Microsoft.Extensions.Hosting.IHostedService Lifetime: Singleton ImplementationType: Spliter.Worker': Unable to resolve service for type 'Spliter.Logic.IKafkaConnections' while attempting to activate 'Spliter.Worker'.
- ---> System.InvalidOperationException: Unable to resolve service for type 'Spliter.Logic.IKafkaConnections' while attempting to activate 'Spliter.Worker'.
-   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateArgumentCallSites(Type implementationType, CallSiteChain callSiteChain, ParameterInfo[] parameters, Boolean throwIfCallSiteNotFound)
-   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateConstructorCallSite(ResultCache lifetime, Type serviceType, Type implementationType, CallSiteChain callSiteChain)
-   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.TryCreateExact(ServiceDescriptor descriptor, Type serviceType, CallSiteChain callSiteChain, Int32 slot)
-   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.GetCallSite(ServiceDescriptor serviceDescriptor, CallSiteChain callSiteChain)
-   at Microsoft.Extensions.DependencyInjection.ServiceProvider.ValidateService(ServiceDescriptor descriptor)
-   --- End of inner exception stack trace ---
-   at Microsoft.Extensions.DependencyInjection.ServiceProvider.ValidateService(ServiceDescriptor descriptor)
-   at Microsoft.Extensions.DependencyInjection.ServiceProvider..ctor(ICollection`1 serviceDescriptors, ServiceProviderOptions options)
-   --- End of inner exception stack trace ---
-   at Microsoft.Extensions.DependencyInjection.ServiceProvider..ctor(ICollection`1 serviceDescriptors, ServiceProviderOptions options)
-   at Microsoft.Extensions.DependencyInjection.ServiceCollectionContainerBuilderExtensions.BuildServiceProvider(IServiceCollection services, ServiceProviderOptions options)
-   at Microsoft.Extensions.DependencyInjection.DefaultServiceProviderFactory.CreateServiceProvider(IServiceCollection containerBuilder)
-   at Microsoft.Extensions.Hosting.Internal.ServiceFactoryAdapter`1.CreateServiceProvider(Object containerBuilder)
-   at Microsoft.Extensions.Hosting.HostBuilder.CreateServiceProvider()
-   at Microsoft.Extensions.Hosting.HostBuilder.Build()
-   at Spliter.Program.Main(String[] args) in C:\Dev\SpliterBuilder\Spliter\Program.cs:line 27
-2022-01-06 00:13:01.871 +02:00 [INF] Service is up and running!
-2022-01-06 00:13:03.314 +02:00 [INF] Worker running at: "2022-01-06T00:13:03.3064913+02:00"
-2022-01-06 00:13:04.373 +02:00 [INF] Worker running at: "2022-01-06T00:13:04.3735430+02:00"
-2022-01-06 00:13:05.390 +02:00 [INF] Worker running at: "2022-01-06T00:13:05.3904206+02:00"
-2022-01-06 00:13:06.415 +02:00 [INF] Worker running at: "2022-01-06T00:13:06.4152543+02:00"
-2022-01-06 00:13:07.429 +02:00 [INF] Worker running at: "2022-01-06T00:13:07.4288032+02:00"
-2022-01-06 00:13:08.438 +02:00 [INF] Worker running at: "2022-01-06T00:13:08.4386980+02:00"
-2022-01-06 00:13:09.441 +02:00 [INF] Worker running at: "2022-01-06T00:13:09.4414685+02:00"
-2022-01-06 00:13:10.453 +02:00 [INF] Worker running at: "2022-01-06T00:13:10.4537985+02:00"
-2022-01-06 00:13:11.461 +02:00 [INF] Worker running at: "2022-01-06T00:13:11.4607269+02:00"
-2022-01-06 00:13:12.472 +02:00 [INF] Worker running at: "2022-01-06T00:13:12.4725619+02:00"
-2022-01-06 00:13:13.481 +02:00 [INF] Worker running at: "2022-01-06T00:13:13.4809792+02:00"
+01/28/2022 17:24:19 Information Service is up and running! 
+ 01/28/2022 17:24:21 Information Worker is running now... 
+ 01/28/2022 17:24:21 Information Producer loop started... 
+ 01/28/2022 17:24:23 Error Broker Name: localhost:9092, Error: localhost:9092/bootstrap: Connect to ipv4#127.0.0.1:9092 failed: Unknown error (after 2034ms in state CONNECT). Is Fatal: False 
+ 01/28/2022 17:24:23 Error Broker Name: localhost:9092, Error: 1/1 brokers are down. Is Fatal: False 
+ 01/28/2022 17:24:26 Error Broker Name: localhost:9092, Error: localhost:9092/bootstrap: Connect to ipv6#[::1]:9092 failed: Unknown error (after 2037ms in state CONNECT). Is Fatal: False 
+ 01/28/2022 17:24:28 Error Broker Name: localhost:9092, Error: localhost:9092/bootstrap: Disconnected while requesting ApiVersion: might be caused by incorrect security.protocol configuration (connecting to a SSL listener?) or broker version is < 0.10 (see api.version.request) (after 432ms in state APIVERSION_QUERY). Is Fatal: False 
+ 01/28/2022 17:24:30 Error Broker Name: localhost:9092, Error: localhost:9092/bootstrap: Connect to ipv4#127.0.0.1:9092 failed: Unknown error (after 2021ms in state CONNECT). Is Fatal: False 
+ 01/28/2022 17:24:33 Error Broker Name: localhost:9092, Error: localhost:9092/bootstrap: Connect to ipv4#127.0.0.1:9092 failed: Unknown error (after 2056ms in state CONNECT, 1 identical error(s) suppressed). Is Fatal: False 
+ 01/28/2022 17:24:35 Error Broker Name: localhost:9092, Error: localhost:9092/bootstrap: Connect to ipv6#[::1]:9092 failed: Unknown error (after 2046ms in state CONNECT). Is Fatal: False 
+ 01/28/2022 17:24:37 Error Broker Name: localhost:9092, Error: localhost:9092/bootstrap: Disconnected while requesting ApiVersion: might be caused by incorrect security.protocol configuration (connecting to a SSL listener?) or broker version is < 0.10 (see api.version.request) (after 336ms in state APIVERSION_QUERY). Is Fatal: False 
+ 01/28/2022 17:24:39 Error Broker Name: localhost:9092, Error: localhost:9092/bootstrap: Connect to ipv4#127.0.0.1:9092 failed: Unknown error (after 2028ms in state CONNECT). Is Fatal: False 
+ 01/28/2022 17:24:42 Error Broker Name: localhost:9092, Error: localhost:9092/bootstrap: Connect to ipv6#[::1]:9092 failed: Unknown error (after 2034ms in state CONNECT). Is Fatal: False 
+ 01/28/2022 17:24:44 Error Broker Name: localhost:9092, Error: localhost:9092/bootstrap: Connect to ipv4#127.0.0.1:9092 failed: Unknown error (after 2040ms in state CONNECT). Is Fatal: False 
+ 01/28/2022 17:24:46 Error Broker Name: localhost:9092, Error: localhost:9092/bootstrap: Disconnected while requesting ApiVersion: might be caused by incorrect security.protocol configuration (connecting to a SSL listener?) or broker version is < 0.10 (see api.version.request) (after 480ms in state APIVERSION_QUERY). Is Fatal: False 
+ 01/28/2022 17:24:48 Error Service is down. closing now. 
+ 01/28/2022 17:24:48 Error Broker Name: localhost:9092, Error: localhost:9092/bootstrap: Connect to ipv6#[::1]:9092 failed: Unknown error (after 2025ms in state CONNECT). Is Fatal: False 
+ 01/28/2022 17:25:43 INF Service is up and running! 
+ 01/28/2022 17:25:44 INF Worker is running now... 
+ 01/28/2022 17:25:44 INF Producer loop started... 
+ 01/28/2022 17:25:46 ERR Broker Name: localhost:9092, Error: localhost:9092/bootstrap: Connect to ipv4#127.0.0.1:9092 failed: Unknown error (after 2037ms in state CONNECT). Is Fatal: False 
+ 01/28/2022 17:25:46 ERR Broker Name: localhost:9092, Error: 1/1 brokers are down. Is Fatal: False 
+ 01/28/2022 17:25:48 ERR Broker Name: localhost:9092, Error: localhost:9092/bootstrap: Connect to ipv6#[::1]:9092 failed: Unknown error (after 2029ms in state CONNECT). Is Fatal: False 
+ 01/28/2022 17:25:50 ERR Broker Name: localhost:9092, Error: localhost:9092/bootstrap: Disconnected while requesting ApiVersion: might be caused by incorrect security.protocol configuration (connecting to a SSL listener?) or broker version is < 0.10 (see api.version.request) (after 695ms in state APIVERSION_QUERY). Is Fatal: False 
+ 01/28/2022 17:25:52 ERR Broker Name: localhost:9092, Error: localhost:9092/bootstrap: Connect to ipv4#127.0.0.1:9092 failed: Unknown error (after 2027ms in state CONNECT). Is Fatal: False 
+ 01/28/2022 17:25:55 ERR Broker Name: localhost:9092, Error: localhost:9092/bootstrap: Connect to ipv4#127.0.0.1:9092 failed: Unknown error (after 2044ms in state CONNECT, 1 identical error(s) suppressed). Is Fatal: False 
+ 01/28/2022 17:25:57 ERR Broker Name: localhost:9092, Error: localhost:9092/bootstrap: Connect to ipv6#[::1]:9092 failed: Unknown error (after 2049ms in state CONNECT). Is Fatal: False 
+ 01/28/2022 17:25:59 ERR Broker Name: localhost:9092, Error: localhost:9092/bootstrap: Disconnected while requesting ApiVersion: might be caused by incorrect security.protocol configuration (connecting to a SSL listener?) or broker version is < 0.10 (see api.version.request) (after 426ms in state APIVERSION_QUERY). Is Fatal: False 
+ 01/28/2022 17:26:01 ERR Broker Name: localhost:9092, Error: localhost:9092/bootstrap: Connect to ipv4#127.0.0.1:9092 failed: Unknown error (after 2017ms in state CONNECT). Is Fatal: False 
+ 01/28/2022 17:26:04 ERR Broker Name: localhost:9092, Error: localhost:9092/bootstrap: Connect to ipv6#[::1]:9092 failed: Unknown error (after 2048ms in state CONNECT). Is Fatal: False 
+ 01/28/2022 17:26:06 ERR Broker Name: localhost:9092, Error: localhost:9092/bootstrap: Connect to ipv4#127.0.0.1:9092 failed: Unknown error (after 2032ms in state CONNECT). Is Fatal: False 
+ 01/28/2022 17:26:08 ERR Broker Name: localhost:9092, Error: localhost:9092/bootstrap: Disconnected while requesting ApiVersion: might be caused by incorrect security.protocol configuration (connecting to a SSL listener?) or broker version is < 0.10 (see api.version.request) (after 285ms in state APIVERSION_QUERY). Is Fatal: False 
+ 01/28/2022 17:26:10 ERR Broker Name: localhost:9092, Error: localhost:9092/bootstrap: Connect to ipv6#[::1]:9092 failed: Unknown error (after 2034ms in state CONNECT). Is Fatal: False 
+ 01/28/2022 17:26:17 ERR Broker Name: localhost:9092, Error: localhost:9092/bootstrap: Disconnected while requesting ApiVersion: might be caused by incorrect security.protocol configuration (connecting to a SSL listener?) or broker version is < 0.10 (see api.version.request) (after 420ms in state APIVERSION_QUERY). Is Fatal: False 
+ 01/28/2022 17:26:19 ERR Broker Name: localhost:9092, Error: localhost:9092/bootstrap: Connect to ipv4#127.0.0.1:9092 failed: Unknown error (after 2018ms in state CONNECT). Is Fatal: False 
+ 01/28/2022 17:26:24 ERR Broker Name: localhost:9092, Error: localhost:9092/bootstrap: Connect to ipv6#[::1]:9092 failed: Unknown error (after 2016ms in state CONNECT). Is Fatal: False 
+ 01/28/2022 17:26:26 ERR Broker Name: localhost:9092, Error: localhost:9092/bootstrap: Disconnected while requesting ApiVersion: might be caused by incorrect security.protocol configuration (connecting to a SSL listener?) or broker version is < 0.10 (see api.version.request) (after 115ms in state APIVERSION_QUERY). Is Fatal: False 
+ 01/28/2022 17:26:28 ERR Broker Name: localhost:9092, Error: localhost:9092/bootstrap: Connect to ipv4#127.0.0.1:9092 failed: Unknown error (after 2013ms in state CONNECT). Is Fatal: False 
+ 01/28/2022 17:26:30 ERR Broker Name: localhost:9092, Error: localhost:9092/bootstrap: Connect to ipv6#[::1]:9092 failed: Unknown error (after 2008ms in state CONNECT). Is Fatal: False 
+ 01/28/2022 17:26:33 ERR Broker Name: localhost:9092, Error: localhost:9092/bootstrap: Connect to ipv6#[::1]:9092 failed: Unknown error (after 2007ms in state CONNECT, 1 identical error(s) suppressed). Is Fatal: False 
+ 01/28/2022 17:26:35 ERR Broker Name: localhost:9092, Error: localhost:9092/bootstrap: Disconnected while requesting ApiVersion: might be caused by incorrect security.protocol configuration (connecting to a SSL listener?) or broker version is < 0.10 (see api.version.request) (after 213ms in state APIVERSION_QUERY). Is Fatal: False 
+ 01/28/2022 17:26:37 ERR Broker Name: localhost:9092, Error: localhost:9092/bootstrap: Connect to ipv4#127.0.0.1:9092 failed: Unknown error (after 2030ms in state CONNECT). Is Fatal: False 
+ 01/28/2022 17:26:44 ERR Broker Name: localhost:9092, Error: localhost:9092/bootstrap: Disconnected while requesting ApiVersion: might be caused by incorrect security.protocol configuration (connecting to a SSL listener?) or broker version is < 0.10 (see api.version.request) (after 594ms in state APIVERSION_QUERY). Is Fatal: False 
+ 01/28/2022 17:26:46 ERR Broker Name: localhost:9092, Error: localhost:9092/bootstrap: Connect to ipv4#127.0.0.1:9092 failed: No connection could be made because the target machine actively refused it... (after 2019ms in state CONNECT). Is Fatal: False 
+ 01/28/2022 17:26:48 ERR Broker Name: localhost:9092, Error: localhost:9092/bootstrap: Connect to ipv4#127.0.0.1:9092 failed: Unknown error (after 2046ms in state CONNECT). Is Fatal: False 
+ 01/28/2022 17:26:52 ERR Broker Name: localhost:9092, Error: localhost:9092/bootstrap: Disconnected while requesting ApiVersion: might be caused by incorrect security.protocol configuration (connecting to a SSL listener?) or broker version is < 0.10 (see api.version.request) (after 651ms in state APIVERSION_QUERY). Is Fatal: False 
+ 01/28/2022 17:26:55 ERR Broker Name: localhost:9092, Error: localhost:9092/bootstrap: Connect to ipv4#127.0.0.1:9092 failed: Unknown error (after 2019ms in state CONNECT). Is Fatal: False 
+ 01/28/2022 17:27:01 ERR Service is down. closing now. 
+ 01/28/2022 17:27:01 ERR Broker Name: localhost:9092, Error: localhost:9092/bootstrap: Disconnected while requesting ApiVersion: might be caused by incorrect security.protocol configuration (connecting to a SSL listener?) or broker version is < 0.10 (see api.version.request) (after 503ms in state APIVERSION_QUERY). Is Fatal: False 
+ 01/28/2022 17:32:58 INF Service is up and running! 
+ 01/28/2022 17:32:59 INF Worker is running now... 
+ 01/28/2022 17:32:59 INF Producer loop started... 
+ 01/28/2022 17:33:01 ERR Broker Name: localhost:9092, Error: localhost:9092/bootstrap: Connect to ipv4#127.0.0.1:9092 failed: Unknown error (after 2026ms in state CONNECT). Is Fatal: False 
+ 01/28/2022 17:33:01 ERR Broker Name: localhost:9092, Error: 1/1 brokers are down. Is Fatal: False 
+ 01/28/2022 17:33:04 ERR Broker Name: localhost:9092, Error: localhost:9092/bootstrap: Connect to ipv6#[::1]:9092 failed: Unknown error (after 2005ms in state CONNECT). Is Fatal: False 
+ 01/28/2022 17:33:06 ERR Broker Name: localhost:9092, Error: localhost:9092/bootstrap: Disconnected while requesting ApiVersion: might be caused by incorrect security.protocol configuration (connecting to a SSL listener?) or broker version is < 0.10 (see api.version.request) (after 665ms in state APIVERSION_QUERY). Is Fatal: False 
+ 01/28/2022 17:33:08 ERR Broker Name: localhost:9092, Error: localhost:9092/bootstrap: Connect to ipv4#127.0.0.1:9092 failed: Unknown error (after 2022ms in state CONNECT). Is Fatal: False 
+ 01/28/2022 17:33:10 ERR Broker Name: localhost:9092, Error: localhost:9092/bootstrap: Connect to ipv4#127.0.0.1:9092 failed: Unknown error (after 2019ms in state CONNECT, 1 identical error(s) suppressed). Is Fatal: False 
+ 01/28/2022 17:33:12 ERR Broker Name: localhost:9092, Error: localhost:9092/bootstrap: Connect to ipv6#[::1]:9092 failed: Unknown error (after 2010ms in state CONNECT). Is Fatal: False 
+ 01/28/2022 17:33:15 ERR Broker Name: localhost:9092, Error: localhost:9092/bootstrap: Disconnected while requesting ApiVersion: might be caused by incorrect security.protocol configuration (connecting to a SSL listener?) or broker version is < 0.10 (see api.version.request) (after 148ms in state APIVERSION_QUERY). Is Fatal: False 
+ 01/28/2022 17:33:17 ERR Broker Name: localhost:9092, Error: localhost:9092/bootstrap: Connect to ipv4#127.0.0.1:9092 failed: Unknown error (after 2019ms in state CONNECT). Is Fatal: False 
+ 01/28/2022 17:33:19 ERR Broker Name: localhost:9092, Error: localhost:9092/bootstrap: Connect to ipv6#[::1]:9092 failed: Unknown error (after 2011ms in state CONNECT). Is Fatal: False 
+ 01/28/2022 17:33:21 ERR Broker Name: localhost:9092, Error: localhost:9092/bootstrap: Connect to ipv4#127.0.0.1:9092 failed: Unknown error (after 2040ms in state CONNECT). Is Fatal: False 
+ 01/28/2022 17:33:24 ERR Broker Name: localhost:9092, Error: localhost:9092/bootstrap: Disconnected while requesting ApiVersion: might be caused by incorrect security.protocol configuration (connecting to a SSL listener?) or broker version is < 0.10 (see api.version.request) (after 450ms in state APIVERSION_QUERY). Is Fatal: False 
+ 01/28/2022 17:33:26 ERR Broker Name: localhost:9092, Error: localhost:9092/bootstrap: Connect to ipv6#[::1]:9092 failed: Unknown error (after 2016ms in state CONNECT). Is Fatal: False 
+ 01/28/2022 17:33:45 INF Service is up and running! 
+ 01/28/2022 17:33:46 INF Worker is running now... 
+ 01/28/2022 17:33:47 DBG Broker Name: localhost:9092, Facility: INIT - Debug Message: [thrd:app]: librdkafka v1.8.2 (0x10802ff) DESKTOP-FT23BA4#producer-1 initialized (builtin.features gzip,snappy,ssl,sasl,regex,lz4,sasl_gssapi,sasl_plain,sasl_scram,plugins,zstd,sasl_oauthbearer, SSL ZLIB SNAPPY SASL_SCRAM PLUGINS HDRHISTOGRAM, debug 0x40) 
+ 01/28/2022 17:33:47 INF Producer loop started... 
+ 01/28/2022 17:33:49 DBG Broker Name: localhost:9092, Facility: FAIL - Error Message: [thrd:localhost:9092/bootstrap]: localhost:9092/bootstrap: Connect to ipv4#127.0.0.1:9092 failed: Unknown error (after 2021ms in state CONNECT) 
+ 01/28/2022 17:33:49 ERR Broker Name: localhost:9092, Error: localhost:9092/bootstrap: Connect to ipv4#127.0.0.1:9092 failed: Unknown error (after 2021ms in state CONNECT). Is Fatal: False 
+ 01/28/2022 17:33:49 ERR Broker Name: localhost:9092, Error: 1/1 brokers are down. Is Fatal: False 
+ 01/28/2022 17:33:51 DBG Broker Name: localhost:9092, Facility: FAIL - Info Message: [thrd:localhost:9092/bootstrap]: localhost:9092/bootstrap: Disconnected while requesting ApiVersion: might be caused by incorrect security.protocol configuration (connecting to a SSL listener?) or broker version is < 0.10 (see api.version.request) (after 354ms in state APIVERSION_QUERY) 
+ 01/28/2022 17:33:51 ERR Broker Name: localhost:9092, Error: localhost:9092/bootstrap: Disconnected while requesting ApiVersion: might be caused by incorrect security.protocol configuration (connecting to a SSL listener?) or broker version is < 0.10 (see api.version.request) (after 354ms in state APIVERSION_QUERY). Is Fatal: False 
+ 01/28/2022 17:33:53 DBG Broker Name: localhost:9092, Facility: FAIL - Error Message: [thrd:localhost:9092/bootstrap]: localhost:9092/bootstrap: Connect to ipv6#[::1]:9092 failed: Unknown error (after 2009ms in state CONNECT) 
+ 01/28/2022 17:33:53 ERR Broker Name: localhost:9092, Error: localhost:9092/bootstrap: Connect to ipv6#[::1]:9092 failed: Unknown error (after 2009ms in state CONNECT). Is Fatal: False 
+ 01/28/2022 17:33:55 DBG Broker Name: localhost:9092, Facility: FAIL - Error Message: [thrd:localhost:9092/bootstrap]: localhost:9092/bootstrap: Connect to ipv4#127.0.0.1:9092 failed: Unknown error (after 2007ms in state CONNECT) 
+ 01/28/2022 17:33:55 ERR Broker Name: localhost:9092, Error: localhost:9092/bootstrap: Connect to ipv4#127.0.0.1:9092 failed: Unknown error (after 2007ms in state CONNECT). Is Fatal: False 
+ 01/28/2022 17:33:58 DBG Broker Name: localhost:9092, Facility: FAIL - Error Message: [thrd:localhost:9092/bootstrap]: localhost:9092/bootstrap: Connect to ipv4#127.0.0.1:9092 failed: Unknown error (after 2019ms in state CONNECT, 1 identical error(s) suppressed) 
+ 01/28/2022 17:33:58 ERR Broker Name: localhost:9092, Error: localhost:9092/bootstrap: Connect to ipv4#127.0.0.1:9092 failed: Unknown error (after 2019ms in state CONNECT, 1 identical error(s) suppressed). Is Fatal: False 
+ 01/28/2022 18:07:26 INF Service is up and running! 
+ 01/28/2022 18:07:30 INF Worker is running now... 
+ 01/28/2022 18:07:31 INF Producer loop started... 
+ 01/28/2022 18:07:33 ERR Broker Name: localhost:9092, Error: localhost:9092/bootstrap: Connect to ipv4#127.0.0.1:9092 failed: Unknown error (after 2046ms in state CONNECT). Is Fatal: False 
+ 01/28/2022 18:07:33 ERR Broker Name: localhost:9092, Error: 1/1 brokers are down. Is Fatal: False 
+ 01/28/2022 18:07:35 ERR Broker Name: localhost:9092, Error: localhost:9092/bootstrap: Connect to ipv6#[::1]:9092 failed: Unknown error (after 2055ms in state CONNECT). Is Fatal: False 
+ 01/28/2022 18:07:38 ERR Broker Name: localhost:9092, Error: localhost:9092/bootstrap: Connect to ipv6#[::1]:9092 failed: Unknown error (after 2044ms in state CONNECT, 1 identical error(s) suppressed). Is Fatal: False 
+ 01/28/2022 18:07:40 ERR Broker Name: localhost:9092, Error: localhost:9092/bootstrap: Disconnected while requesting ApiVersion: might be caused by incorrect security.protocol configuration (connecting to a SSL listener?) or broker version is < 0.10 (see api.version.request) (after 305ms in state APIVERSION_QUERY). Is Fatal: False 
+ 01/28/2022 18:07:42 ERR Broker Name: localhost:9092, Error: localhost:9092/bootstrap: Connect to ipv4#127.0.0.1:9092 failed: Unknown error (after 2020ms in state CONNECT). Is Fatal: False 
+ 01/28/2022 18:07:44 ERR Broker Name: localhost:9092, Error: localhost:9092/bootstrap: Connect to ipv6#[::1]:9092 failed: Unknown error (after 2029ms in state CONNECT). Is Fatal: False 
+ 01/28/2022 18:07:46 ERR Broker Name: localhost:9092, Error: localhost:9092/bootstrap: Connect to ipv4#127.0.0.1:9092 failed: Unknown error (after 2060ms in state CONNECT). Is Fatal: False 
+ 01/28/2022 18:07:49 ERR Broker Name: localhost:9092, Error: localhost:9092/bootstrap: Disconnected while requesting ApiVersion: might be caused by incorrect security.protocol configuration (connecting to a SSL listener?) or broker version is < 0.10 (see api.version.request) (after 489ms in state APIVERSION_QUERY). Is Fatal: False 
+ 01/28/2022 18:07:51 ERR Broker Name: localhost:9092, Error: localhost:9092/bootstrap: Connect to ipv6#[::1]:9092 failed: Unknown error (after 2022ms in state CONNECT). Is Fatal: False 
+ 
