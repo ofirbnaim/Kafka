@@ -29,4 +29,105 @@
  01/29/2022 13:46:34 ERR Error: localhost:9092/bootstrap: Connect to ipv6#[::1]:9092 failed: Unknown error (after 2032ms in state CONNECT), Is Fatal: False 
  01/29/2022 13:46:36 ERR Error: localhost:9092/bootstrap: Disconnected while requesting ApiVersion: might be caused by incorrect security.protocol configuration (connecting to a SSL listener?) or broker version is < 0.10 (see api.version.request) (after 596ms in state APIVERSION_QUERY), Is Fatal: False 
  01/29/2022 13:46:38 ERR Error: localhost:9092/bootstrap: Connect to ipv6#[::1]:9092 failed: Unknown error (after 2038ms in state CONNECT), Is Fatal: False 
+ 01/30/2022 19:23:13 INF Consumer Service is up and running! 
+ 01/30/2022 19:23:16 INF Consumer Worker is running now... 
+ 01/30/2022 19:23:16 INF Consumer loop started... 
+ 01/30/2022 19:23:18 ERR Error: localhost:9092/bootstrap: Connect to ipv4#127.0.0.1:9092 failed: Unknown error (after 2054ms in state CONNECT), Is Fatal: False 
+ 01/30/2022 19:23:18 ERR Error: 1/1 brokers are down, Is Fatal: False 
+ 01/30/2022 19:23:21 ERR Error: localhost:9092/bootstrap: Connect to ipv6#[::1]:9092 failed: Unknown error (after 2047ms in state CONNECT), Is Fatal: False 
+ 01/30/2022 19:23:24 ERR Error: localhost:9092/bootstrap: Connect to ipv6#[::1]:9092 failed: Unknown error (after 2034ms in state CONNECT, 1 identical error(s) suppressed), Is Fatal: False 
+ 01/30/2022 19:23:27 ERR Error: localhost:9092/bootstrap: Connect to ipv4#127.0.0.1:9092 failed: Unknown error (after 2041ms in state CONNECT), Is Fatal: False 
+ 01/30/2022 19:23:28 ERR Error: localhost:9092/bootstrap: Disconnected while requesting ApiVersion: might be caused by incorrect security.protocol configuration (connecting to a SSL listener?) or broker version is < 0.10 (see api.version.request) (after 69ms in state APIVERSION_QUERY), Is Fatal: False 
+ 01/30/2022 19:23:30 ERR Error: localhost:9092/bootstrap: Connect to ipv6#[::1]:9092 failed: Unknown error (after 2029ms in state CONNECT), Is Fatal: False 
+ 01/30/2022 19:29:53 INF Consumer Service is up and running! 
+ 01/30/2022 19:29:54 INF Consumer Worker is running now... 
+ 01/30/2022 19:29:54 INF Consumer loop started... 
+ 01/30/2022 19:29:55 INF Message received:
+'{
+  "FirstName": "ofir",
+  "LastName": "Ben Naim",
+  "Date": "2022-01-30T19:29:53.9499095+02:00"
+}'
+with the key: '637791605940595623', In Partition: 0, at Offset: 0
+ 
+ 01/30/2022 19:29:56 INF Message received:
+'{
+  "FirstName": "ofir",
+  "LastName": "Ben Naim",
+  "Date": "2022-01-30T19:29:56.0033688+02:00"
+}'
+with the key: '637791605960052642', In Partition: 0, at Offset: 0
+ 
+ 01/30/2022 19:30:00 INF Message received:
+'{
+  "FirstName": "ofir",
+  "LastName": "Ben Naim",
+  "Date": "2022-01-30T19:29:59.1037308+02:00"
+}'
+with the key: '637791605991270828', In Partition: 0, at Offset: 1
+ 
+ 01/30/2022 19:30:02 INF Message received:
+'{
+  "FirstName": "ofir",
+  "LastName": "Ben Naim",
+  "Date": "2022-01-30T19:30:01.1566679+02:00"
+}'
+with the key: '637791606011592820', In Partition: 0, at Offset: 1
+ 
+ 01/30/2022 19:30:05 INF Message received:
+'{
+  "FirstName": "ofir",
+  "LastName": "Ben Naim",
+  "Date": "2022-01-30T19:30:04.2714725+02:00"
+}'
+with the key: '637791606042973579', In Partition: 0, at Offset: 2
+ 
+ 01/30/2022 19:30:07 INF Message received:
+'{
+  "FirstName": "ofir",
+  "LastName": "Ben Naim",
+  "Date": "2022-01-30T19:30:06.3216052+02:00"
+}'
+with the key: '637791606063250222', In Partition: 0, at Offset: 2
+ 
+ 01/30/2022 19:30:10 INF Message received:
+'{
+  "FirstName": "ofir",
+  "LastName": "Ben Naim",
+  "Date": "2022-01-30T19:30:09.4460929+02:00"
+}'
+with the key: '637791606094718926', In Partition: 0, at Offset: 3
+ 
+ 01/30/2022 19:30:12 INF Message received:
+'{
+  "FirstName": "ofir",
+  "LastName": "Ben Naim",
+  "Date": "2022-01-30T19:30:11.5133245+02:00"
+}'
+with the key: '637791606115151675', In Partition: 0, at Offset: 3
+ 
+ 01/30/2022 19:30:15 INF Message received:
+'{
+  "FirstName": "ofir",
+  "LastName": "Ben Naim",
+  "Date": "2022-01-30T19:30:14.6105677+02:00"
+}'
+with the key: '637791606146245264', In Partition: 0, at Offset: 4
+ 
+ 01/30/2022 19:30:17 INF Message received:
+'{
+  "FirstName": "ofir",
+  "LastName": "Ben Naim",
+  "Date": "2022-01-30T19:30:16.6677166+02:00"
+}'
+with the key: '637791606166694132', In Partition: 0, at Offset: 4
+ 
+ 01/30/2022 19:30:20 INF Message received:
+'{
+  "FirstName": "ofir",
+  "LastName": "Ben Naim",
+  "Date": "2022-01-30T19:30:19.755902+02:00"
+}'
+with the key: '637791606197728286', In Partition: 0, at Offset: 5
+ 
  

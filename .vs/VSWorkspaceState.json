@@ -1,8 +1,8 @@
 {
   "ExpandedNodes": [
     "",
-    "\\SpliterBuilder",
-    "\\SpliterBuilder\\Spliter"
+    "\\KafkaConnections"
   ],
+  "SelectedNode": "\\KafkaConnections\\KafkaConnections.sln",
   "PreviewInSolutionExplorer": false
 }

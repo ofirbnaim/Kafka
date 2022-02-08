@@ -91,3 +91,4 @@ C:\Users\ofirb\source\repos\ofirbnaim\Kafka\KafkaConnections\KafkaConsumer\bin\D
 C:\Users\ofirb\source\repos\ofirbnaim\Kafka\KafkaConnections\KafkaConsumer\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Security.Principal.Windows.dll
 C:\Users\ofirb\source\repos\ofirbnaim\Kafka\KafkaConnections\KafkaConsumer\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Security.Principal.Windows.dll
 C:\Users\ofirb\source\repos\ofirbnaim\Kafka\KafkaConnections\KafkaConsumer\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.1\System.ServiceProcess.ServiceController.dll
+C:\Users\ofirb\source\repos\ofirbnaim\Kafka\KafkaConnections\KafkaConsumer\obj\Debug\netcoreapp3.1\KafkaConsumer.GeneratedMSBuildEditorConfig.editorconfig

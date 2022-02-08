@@ -1,4 +1,5 @@
 ﻿using Confluent.Kafka;
+using KafkaProducer.API;
 using KafkaProducer.Config;
 using KafkaProducer.DM;
 using Microsoft.Extensions.Logging;
@@ -71,7 +72,7 @@ namespace KafkaProducer.Logic
                         {
                             FirstName = "ofir",
                             LastName = "Ben Naim",
-                            Date = DateTimeOffset.Now
+                            Date = DateTimeOffset.UtcNow
                         };
 
                         // Serialize

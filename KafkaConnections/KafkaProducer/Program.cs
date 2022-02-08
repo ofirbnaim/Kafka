@@ -1,3 +1,4 @@
+using KafkaProducer.API;
 using KafkaProducer.Config;
 using KafkaProducer.Logic;
 using Microsoft.Extensions.Configuration;
@@ -50,11 +51,12 @@ namespace KafkaProducer
                    ConfigDM config = hostContext.Configuration.GetSection("kafkaSection").Get<ConfigDM>();
                    services.AddSingleton(config);
 
-                     //Add singeltons
-                     services.AddSingleton<IProducerClass, ProducerClass>();
+                   //Add singeltons
+                   services.AddSingleton<IProducerClass, ProducerClass>();
+                   services.AddSingleton<IApiHelper, ApiHelper>();
 
-                     //Add worker
-                     services.AddHostedService<Worker>();
+                   //Add worker
+                   services.AddHostedService<Worker>();
                })
                .UseSerilog();
         }

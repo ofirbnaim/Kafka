@@ -97,3 +97,4 @@ C:\Users\ofirb\source\repos\ofirbnaim\Kafka\KafkaConnections\KafkaProducer\bin\D
 C:\Users\ofirb\source\repos\ofirbnaim\Kafka\KafkaConnections\KafkaProducer\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Hosting.WindowsServices.dll
 C:\Users\ofirb\source\repos\ofirbnaim\Kafka\KafkaConnections\KafkaProducer\bin\Debug\netcoreapp3.1\System.ServiceProcess.ServiceController.dll
 C:\Users\ofirb\source\repos\ofirbnaim\Kafka\KafkaConnections\KafkaProducer\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.1\System.ServiceProcess.ServiceController.dll
+C:\Users\ofirb\source\repos\ofirbnaim\Kafka\KafkaConnections\KafkaProducer\obj\Debug\netcoreapp3.1\KafkaProducer.GeneratedMSBuildEditorConfig.editorconfig
