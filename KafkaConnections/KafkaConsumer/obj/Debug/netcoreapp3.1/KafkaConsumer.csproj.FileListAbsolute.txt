@@ -67,7 +67,6 @@ C:\Users\ofirb\source\repos\ofirbnaim\Kafka\KafkaConnections\KafkaConsumer\bin\D
 C:\Users\ofirb\source\repos\ofirbnaim\Kafka\KafkaConnections\KafkaConsumer\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\vcruntime140.dll
 C:\Users\ofirb\source\repos\ofirbnaim\Kafka\KafkaConnections\KafkaConsumer\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\zlib1.dll
 C:\Users\ofirb\source\repos\ofirbnaim\Kafka\KafkaConnections\KafkaConsumer\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\zstd.dll
-C:\Users\ofirb\source\repos\ofirbnaim\Kafka\KafkaConnections\KafkaConsumer\obj\Debug\netcoreapp3.1\KafkaConsumer.csproj.AssemblyReference.cache
 C:\Users\ofirb\source\repos\ofirbnaim\Kafka\KafkaConnections\KafkaConsumer\obj\Debug\netcoreapp3.1\KafkaConsumer.AssemblyInfoInputs.cache
 C:\Users\ofirb\source\repos\ofirbnaim\Kafka\KafkaConnections\KafkaConsumer\obj\Debug\netcoreapp3.1\KafkaConsumer.AssemblyInfo.cs
 C:\Users\ofirb\source\repos\ofirbnaim\Kafka\KafkaConnections\KafkaConsumer\obj\Debug\netcoreapp3.1\KafkaConsumer.csproj.CoreCompileInputs.cache
@@ -92,3 +91,10 @@ C:\Users\ofirb\source\repos\ofirbnaim\Kafka\KafkaConnections\KafkaConsumer\bin\D
 C:\Users\ofirb\source\repos\ofirbnaim\Kafka\KafkaConnections\KafkaConsumer\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Security.Principal.Windows.dll
 C:\Users\ofirb\source\repos\ofirbnaim\Kafka\KafkaConnections\KafkaConsumer\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.1\System.ServiceProcess.ServiceController.dll
 C:\Users\ofirb\source\repos\ofirbnaim\Kafka\KafkaConnections\KafkaConsumer\obj\Debug\netcoreapp3.1\KafkaConsumer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ofirb\source\repos\ofirbnaim\Kafka\KafkaConnections\KafkaConsumer\obj\Debug\netcoreapp3.1\KafkaConsumer.csproj.AssemblyReference.cache
+C:\Users\ofirb\source\repos\ofirbnaim\Kafka\KafkaConnections\KafkaConsumer\bin\Debug\netcoreapp3.1\Watcher.deps.json
+C:\Users\ofirb\source\repos\ofirbnaim\Kafka\KafkaConnections\KafkaConsumer\bin\Debug\netcoreapp3.1\Watcher.runtimeconfig.json
+C:\Users\ofirb\source\repos\ofirbnaim\Kafka\KafkaConnections\KafkaConsumer\bin\Debug\netcoreapp3.1\Watcher.runtimeconfig.dev.json
+C:\Users\ofirb\source\repos\ofirbnaim\Kafka\KafkaConnections\KafkaConsumer\bin\Debug\netcoreapp3.1\Watcher.exe
+C:\Users\ofirb\source\repos\ofirbnaim\Kafka\KafkaConnections\KafkaConsumer\bin\Debug\netcoreapp3.1\Watcher.dll
+C:\Users\ofirb\source\repos\ofirbnaim\Kafka\KafkaConnections\KafkaConsumer\bin\Debug\netcoreapp3.1\Watcher.pdb

@@ -15,7 +15,8 @@
           "Microsoft.Extensions.Options": "6.0.0",
           "Serilog.AspNetCore": "4.1.0",
           "Serilog.Settings.Configuration": "3.3.0",
-          "Serilog.Sinks.File": "5.0.0"
+          "Serilog.Sinks.File": "5.0.0",
+          "Watcher": "1.0.0"
         },
         "runtime": {
           "KafkaConsumer.dll": {}
@@ -1406,6 +1407,18 @@
           "System.Threading": "4.3.0",
           "System.Xml.ReaderWriter": "4.0.11"
         }
+      },
+      "Watcher/1.0.0": {
+        "dependencies": {
+          "Microsoft.Extensions.Hosting": "6.0.0",
+          "Microsoft.Extensions.Hosting.WindowsServices": "6.0.0",
+          "Serilog": "2.10.0",
+          "Serilog.AspNetCore": "4.1.0",
+          "Serilog.Settings.Configuration": "3.3.0"
+        },
+        "runtime": {
+          "Watcher.dll": {}
+        }
       }
     }
   },
@@ -2233,6 +2246,11 @@
       "sha512": "sha512-Mk2mKmPi0nWaoiYeotq1dgeNK1fqWh61+EK+w4Wu8SWuTYLzpUnschb59bJtGywaPq7SmTuPf44wrXRwbIrukg==",
       "path": "system.xml.xdocument/4.0.11",
       "hashPath": "system.xml.xdocument.4.0.11.nupkg.sha512"
+    },
+    "Watcher/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     }
   }
 }

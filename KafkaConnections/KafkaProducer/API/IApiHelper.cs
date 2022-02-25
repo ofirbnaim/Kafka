@@ -6,8 +6,6 @@ namespace KafkaProducer.API
 {
     public interface IApiHelper
     {
-        public void InitializeHttpClient();
-
         // Meaning of where T : class
         // class - limit that 'T' has to be a class and it can't be a int/string/double or any type wich is not a class
         public Task<T> LoadFromWeb<T>() where T : class;

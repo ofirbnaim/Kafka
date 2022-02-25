@@ -2060,13 +2060,31 @@
           "Microsoft.Extensions.Options": "6.0.0",
           "Serilog.AspNetCore": "4.1.0",
           "Serilog.Settings.Configuration": "3.3.0",
-          "Serilog.Sinks.File": "5.0.0"
+          "Serilog.Sinks.File": "5.0.0",
+          "Watcher": "1.0.0"
         },
         "compile": {
           "bin/placeholder/KafkaConsumer.dll": {}
         },
         "runtime": {
           "bin/placeholder/KafkaConsumer.dll": {}
+        }
+      },
+      "Watcher/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "Microsoft.Extensions.Hosting": "6.0.0",
+          "Microsoft.Extensions.Hosting.WindowsServices": "6.0.0",
+          "Serilog": "2.10.0",
+          "Serilog.AspNetCore": "4.1.0",
+          "Serilog.Settings.Configuration": "3.3.0"
+        },
+        "compile": {
+          "bin/placeholder/Watcher.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Watcher.dll": {}
         }
       }
     }
@@ -6545,6 +6563,11 @@
       "type": "project",
       "path": "../KafkaConsumer/KafkaConsumer.csproj",
       "msbuildProject": "../KafkaConsumer/KafkaConsumer.csproj"
+    },
+    "Watcher/1.0.0": {
+      "type": "project",
+      "path": "../Watcher/Watcher.csproj",
+      "msbuildProject": "../Watcher/Watcher.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -6638,7 +6661,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.102\\RuntimeIdentifierGraph.json"
       }
     }
   }

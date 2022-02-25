@@ -8,6 +8,7 @@ using System.IO;
 using System.Text;
 using System.Text.Json;
 using System.Threading;
+using Watcher.Logic;
 
 namespace KafkaConsumer.Logic
 {
@@ -30,7 +31,8 @@ namespace KafkaConsumer.Logic
                 EnableAutoOffsetStore = false,
                 MaxPollIntervalMs = 300000,
                 GroupId = _configDM.kafkaConnectionsConfig.GroupID,
-
+                // Avoid connecting to IPv6 brokers:
+                BrokerAddressFamily = BrokerAddressFamily.V4,
                 // Read messages from start if no commit exists.
                 AutoOffsetReset = AutoOffsetReset.Earliest
             };
@@ -43,9 +45,9 @@ namespace KafkaConsumer.Logic
                     .SetKeyDeserializer(Deserializers.Int64)
                     .SetValueDeserializer(Deserializers.Utf8)
                     .SetLogHandler((_, message) => _logger.LogDebug($"Facility: {message.Facility}, Message: {message}"))
-                    .SetErrorHandler((_, exception) => _logger.LogError($"Error: {exception.Reason}, Is Fatal: {exception.IsFatal}"))
+                    .SetErrorHandler((_, exception) => _logger.LogError($"Error: {exception.Reason}, Is Fatal: {exception.IsFatal},  Code:{exception.Code},  Is Local:{exception.IsLocalError}, Is Broker Error:{exception.IsBrokerError}"))
                     .Build();
-
+ 
                 try
                 {
                     // Subscribe to all Topics (more than one)
@@ -57,11 +59,13 @@ namespace KafkaConsumer.Logic
                     while (true)
                     {
                         // Blocks until a consume result is available, or the time out period has elapsed
-                        var result = consumer.Consume(TimeSpan.FromMilliseconds(_consumerConfig.MaxPollIntervalMs - 1000 ?? 250000));
+                        var result = consumer.Consume(TimeSpan.FromMilliseconds(_consumerConfig.MaxPollIntervalMs - 1000 ?? 300000));
 
                         // Get the message value - null is possible
                         var message = result?.Message?.Value;
-                        PersonDM personToDeserialize = JsonSerializer.Deserialize<PersonDM>(message);
+
+                        //PersonDM personToDeserialize = JsonSerializer.Deserialize<PersonDM>(message);
+                        WeatherDM personToDeserialize = JsonSerializer.Deserialize<WeatherDM>(message);
 
                         if (message == null)
                         {
@@ -77,13 +81,13 @@ namespace KafkaConsumer.Logic
                         consumer.Commit(result);
                         consumer.StoreOffset(result);
 
-                        Thread.Sleep(TimeSpan.FromSeconds(1));
+                        //Thread.Sleep(TimeSpan.FromSeconds(1));
                     }
                 }
                 catch (KafkaException ex)
                 {
                     _logger.LogError($"Consumer Error: {ex.Message}");
-                    _logger.LogError("Exiting producer...");
+                    _logger.LogError("Exiting Consumer...");
                 }
                 finally
                 {

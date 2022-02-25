@@ -6,10 +6,10 @@ namespace KafkaProducer.Config
 {
     public class ConfigDM
     {
-        public kafkaConnectionsSection kafkaConnectionsConfig { get; set; }
+        public kafkaConnectionsSection KafkaConnectionsConfig { get; set; }
         public ApiSection ApiSectionConfig { get; set; }
 
-        // KafkaConnection Section object
+        // Kafka Connection Section
         public class kafkaConnectionsSection
         {
             public Brokers[] Brokers { get; set; }
@@ -21,7 +21,8 @@ namespace KafkaProducer.Config
             public string BrokerName { get; set; }
             public IEnumerable<string> TopicsNames { get; set; }
         }
-
+        
+        // Api Section Config
         public class ApiSection
         {
             public string BaseAddress { get; set; }

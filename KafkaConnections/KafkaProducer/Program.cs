@@ -6,9 +6,6 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Serilog;
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 
 namespace KafkaProducer
 {
@@ -32,7 +29,7 @@ namespace KafkaProducer
             }
             catch (Exception ex)
             {
-                Log.Fatal(ex, @"There was a problem starting the Producer service");
+                Log.Fatal(ex.Message, @"There was a problem starting the Producer service");
                 return;
             }
             finally

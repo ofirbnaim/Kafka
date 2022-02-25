@@ -5,8 +5,6 @@ using Serilog;
 using KafkaConsumer.Config;
 using System;
 using KafkaConsumer.Logic;
-using Microsoft.Extensions.Logging;
-using System.Linq;
 
 namespace KafkaConsumer
 {

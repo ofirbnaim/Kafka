@@ -1954,6 +1954,23 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XDocument.dll": {}
         }
+      },
+      "Watcher/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "Microsoft.Extensions.Hosting": "6.0.0",
+          "Microsoft.Extensions.Hosting.WindowsServices": "6.0.0",
+          "Serilog": "2.10.0",
+          "Serilog.AspNetCore": "4.1.0",
+          "Serilog.Settings.Configuration": "3.3.0"
+        },
+        "compile": {
+          "bin/placeholder/Watcher.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Watcher.dll": {}
+        }
       }
     }
   },
@@ -6243,6 +6260,11 @@
         "system.xml.xdocument.4.0.11.nupkg.sha512",
         "system.xml.xdocument.nuspec"
       ]
+    },
+    "Watcher/1.0.0": {
+      "type": "project",
+      "path": "../Watcher/Watcher.csproj",
+      "msbuildProject": "../Watcher/Watcher.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -6254,7 +6276,8 @@
       "Microsoft.Extensions.Options >= 6.0.0",
       "Serilog.AspNetCore >= 4.1.0",
       "Serilog.Settings.Configuration >= 3.3.0",
-      "Serilog.Sinks.File >= 5.0.0"
+      "Serilog.Sinks.File >= 5.0.0",
+      "Watcher >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -6290,7 +6313,11 @@
       "frameworks": {
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\ofirb\\source\\repos\\ofirbnaim\\Kafka\\KafkaConnections\\Watcher\\Watcher.csproj": {
+              "projectPath": "C:\\Users\\ofirb\\source\\repos\\ofirbnaim\\Kafka\\KafkaConnections\\Watcher\\Watcher.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
@@ -6351,7 +6378,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.102\\RuntimeIdentifierGraph.json"
       }
     }
   }

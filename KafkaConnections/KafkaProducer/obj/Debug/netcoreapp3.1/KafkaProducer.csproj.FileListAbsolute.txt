@@ -98,3 +98,11 @@ C:\Users\ofirb\source\repos\ofirbnaim\Kafka\KafkaConnections\KafkaProducer\bin\D
 C:\Users\ofirb\source\repos\ofirbnaim\Kafka\KafkaConnections\KafkaProducer\bin\Debug\netcoreapp3.1\System.ServiceProcess.ServiceController.dll
 C:\Users\ofirb\source\repos\ofirbnaim\Kafka\KafkaConnections\KafkaProducer\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.1\System.ServiceProcess.ServiceController.dll
 C:\Users\ofirb\source\repos\ofirbnaim\Kafka\KafkaConnections\KafkaProducer\obj\Debug\netcoreapp3.1\KafkaProducer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ofirb\source\repos\ofirbnaim\Kafka\KafkaConnections\KafkaProducer\bin\Debug\netcoreapp3.1\System.Net.Http.Formatting.dll
+C:\Users\ofirb\source\repos\ofirbnaim\Kafka\KafkaConnections\KafkaProducer\bin\Debug\netcoreapp3.1\Newtonsoft.Json.Bson.dll
+C:\Users\ofirb\source\repos\ofirbnaim\Kafka\KafkaConnections\KafkaProducer\bin\Debug\netcoreapp3.1\Watcher.deps.json
+C:\Users\ofirb\source\repos\ofirbnaim\Kafka\KafkaConnections\KafkaProducer\bin\Debug\netcoreapp3.1\Watcher.runtimeconfig.json
+C:\Users\ofirb\source\repos\ofirbnaim\Kafka\KafkaConnections\KafkaProducer\bin\Debug\netcoreapp3.1\Watcher.runtimeconfig.dev.json
+C:\Users\ofirb\source\repos\ofirbnaim\Kafka\KafkaConnections\KafkaProducer\bin\Debug\netcoreapp3.1\Watcher.exe
+C:\Users\ofirb\source\repos\ofirbnaim\Kafka\KafkaConnections\KafkaProducer\bin\Debug\netcoreapp3.1\Watcher.dll
+C:\Users\ofirb\source\repos\ofirbnaim\Kafka\KafkaConnections\KafkaProducer\bin\Debug\netcoreapp3.1\Watcher.pdb

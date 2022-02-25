@@ -10,6 +10,7 @@ using System.Text;
 using System.Text.Json;
 using System.Threading;
 using System.Threading.Tasks;
+using Watcher.Logic;
 
 namespace KafkaProducer.Logic
 {
@@ -17,23 +18,27 @@ namespace KafkaProducer.Logic
     {
         private readonly ILogger<ProducerClass> _logger;
         private readonly ConfigDM _configDM;
+        public IApiHelper _api;
 
         public ProducerClass(ILogger<ProducerClass> logger, ConfigDM configDM)
         {
             _logger = logger;
             _configDM = configDM;
         }
-
+        
         public async Task ToProduce()
         {
+           _api = new ApiHelper(_configDM);
+          
+           #region Producer Configuration
             // Reliable Producer Configuration
             var _producerConfig = new ProducerConfig
             {
                 ClientId = Dns.GetHostName(),
                 EnableDeliveryReports = true,
-
+                // Avoid connecting to IPv6 brokers:
+                BrokerAddressFamily = BrokerAddressFamily.V4,
                 Debug = "msg",
-                #region 
                 // Retry settings:
                 // Receive akcnowledgement from all sync replicas
                 Acks = Acks.All,
@@ -43,10 +48,10 @@ namespace KafkaProducer.Logic
                 RetryBackoffMs = 1000,
                 // Set to true if you don't want to reorder messages on retry
                 EnableIdempotence = true
-                #endregion
             };
+           #endregion
 
-            foreach (var broker in _configDM.kafkaConnectionsConfig.Brokers)
+            foreach (var broker in _configDM.KafkaConnectionsConfig.Brokers)
             {
                 _producerConfig.BootstrapServers = broker.BrokerName;
 
@@ -61,6 +66,17 @@ namespace KafkaProducer.Logic
                   ))
                   .Build();
 
+                // Load data from API
+                WeatherDM apiData = null;
+                try
+                {
+                    apiData =await _api.LoadFromWeb<WeatherDM>();
+                }
+                catch (Exception ex)
+                {
+                    _logger.LogError($"There was a problem with loading data from the web api", ex.Message);
+                }
+
                 // Producing Messages to all topics
                 try
                 {
@@ -68,16 +84,17 @@ namespace KafkaProducer.Logic
                     {
                         _logger.LogInformation("Producer loop started...");
 
-                        var personToSerialize = new PersonDM
-                        {
-                            FirstName = "ofir",
-                            LastName = "Ben Naim",
-                            Date = DateTimeOffset.UtcNow
-                        };
+                        //var personToSerialize = new PersonDM
+                        //{
+                        //    FirstName = "ofir",
+                        //    LastName = "Ben Naim",
+                        //    Date = DateTimeOffset.UtcNow
+                        //};
 
                         // Serialize
                         var options = new JsonSerializerOptions { WriteIndented = true };
-                        var message = JsonSerializer.Serialize(personToSerialize, options);
+                        //var message = JsonSerializer.Serialize(personToSerialize, options);
+                        var message = JsonSerializer.Serialize(apiData, options);
 
                         var deliveryReport = await producer.ProduceAsync(topic, new Message<long, string>
                         {
