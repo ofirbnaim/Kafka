@@ -3920,4 +3920,42 @@ with the key: '637813951911348676', to topic: topic-b in partiotion: 0, at Offse
 with the key: '637813951949310747', to topic: topic-a in partiotion: 0, at Offset: 147. Delivery status: Persisted
  
  02/25/2022 16:13:16 INF Producer loop started... 
+ 02/27/2022 08:48:45 INF Producer Service is up and running! 
+ 02/27/2022 08:48:47 INF Producer Worker is running now... 
+ 02/27/2022 08:48:51 INF Producer loop started... 
+ 02/27/2022 08:48:52 INF Message sent:
+'{
+  "Results": {
+    "Sunrise": "2022-02-27T06:49:34",
+    "Sunset": "2022-02-27T18:11:09"
+  },
+  "Status": "OK"
+}' 
+with the key: '637815413311118345', to topic: topic-a in partiotion: 0, at Offset: 148. Delivery status: Persisted
+ 
+ 02/27/2022 08:48:53 INF Producer loop started... 
+ 02/27/2022 08:48:54 INF Message sent:
+'{
+  "Results": {
+    "Sunrise": "2022-02-27T06:49:34",
+    "Sunset": "2022-02-27T18:11:09"
+  },
+  "Status": "OK"
+}' 
+with the key: '637815413331706483', to topic: topic-b in partiotion: 0, at Offset: 133. Delivery status: Persisted
+ 
+ 02/27/2022 08:48:56 INF Producer Worker is running now... 
+ 02/27/2022 08:48:57 INF Producer loop started... 
+ 02/27/2022 08:48:57 INF Message sent:
+'{
+  "Results": {
+    "Sunrise": "2022-02-27T06:49:34",
+    "Sunset": "2022-02-27T18:11:09"
+  },
+  "Status": "OK"
+}' 
+with the key: '637815413370172176', to topic: topic-a in partiotion: 0, at Offset: 149. Delivery status: Persisted
+ 
+ 02/27/2022 08:48:57 ERR Producer Service is down. closing now. 
+ 02/27/2022 08:48:58 INF Producer loop started... 
  

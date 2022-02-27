@@ -25,7 +25,6 @@ namespace Watcher.Logic
         public void Watch(FileSystemWatcher watcher, string scanPath)
         {
             // Determine the Path to Watch
-            //using var watcher = new FileSystemWatcher(scanPath);
 
             watcher = new FileSystemWatcher(scanPath)
             {
@@ -54,6 +53,7 @@ namespace Watcher.Logic
 
         private static void OnChanged(object sender, FileSystemEventArgs e)
         {
+
             if (e.ChangeType != WatcherChangeTypes.Changed)
             {
                 return;

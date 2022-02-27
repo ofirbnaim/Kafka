@@ -5206,4 +5206,37 @@ with the key: '637813951911348676', In Partition: 0, at Offset: 132
 }'
 with the key: '637813951949310747', In Partition: 0, at Offset: 147
  
+ 02/27/2022 08:48:45 INF Consumer Service is up and running! 
+ 02/27/2022 08:48:47 INF Consumer Worker is running now... 
+ 02/27/2022 08:48:48 INF Consumer loop started... 
+ 02/27/2022 08:48:52 INF Message received:
+'{
+  "Results": {
+    "Sunrise": "2022-02-27T06:49:34",
+    "Sunset": "2022-02-27T18:11:09"
+  },
+  "Status": "OK"
+}'
+with the key: '637815413311118345', In Partition: 0, at Offset: 148
+ 
+ 02/27/2022 08:48:54 INF Message received:
+'{
+  "Results": {
+    "Sunrise": "2022-02-27T06:49:34",
+    "Sunset": "2022-02-27T18:11:09"
+  },
+  "Status": "OK"
+}'
+with the key: '637815413331706483', In Partition: 0, at Offset: 133
+ 
+ 02/27/2022 08:48:57 INF Message received:
+'{
+  "Results": {
+    "Sunrise": "2022-02-27T06:49:34",
+    "Sunset": "2022-02-27T18:11:09"
+  },
+  "Status": "OK"
+}'
+with the key: '637815413370172176', In Partition: 0, at Offset: 149
+ 
  

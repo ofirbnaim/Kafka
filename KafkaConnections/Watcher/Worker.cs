@@ -42,7 +42,11 @@ namespace Watcher
             {
                 _logger.LogInformation("Watcher Service is running now...");
 
-                _watcher.Watch(new FileSystemWatcher(), _configDM.WatcherConfig.ScanPath);
+                //_watcher.Watch(new FileSystemWatcher(), _configDM.WatcherConfig.ScanPath);
+                
+                FileSystemWatcher watcher = new FileSystemWatcher();
+                _watcher.Watch(watcher, _configDM.WatcherConfig.ScanPath);
+                watcher.Dispose();
 
                 await Task.Delay(1000, stoppingToken);
             }
